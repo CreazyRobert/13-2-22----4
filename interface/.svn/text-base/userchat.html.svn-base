@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户聊天接口_半步网接口开发说明文档</title>
+<style>
+body{line-height:22px;}
+a{color:#06F;text-decoration:none;}
+.smalltitle{color:#00F}
+</style>
+</head>
+
+<body>
+<table width="950" border="0" align="center" cellpadding="5" cellspacing="0">
+  <tr>
+    <td height="32" align="center"><strong><a href="interface.html">半步网接口开发说明文档</a></strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//发送一条文本消息至指定用户</td>
+  </tr>
+  <tr>
+    <td><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_user_chat/_send_touser_message.php?jsonfrom=</span><br>
+      <em><strong>参数　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">send_touser_message</span>&quot;,&quot;loginid&quot;:&quot;120627-201459-FB6B7994-F5FB-E1F6-5AD4-7FD9F2A1A0DA&quot;,&quot;touid&quot;:&quot;1053&quot;,&quot;says&quot;:&quot;  eyd0eXBlJzondGV4dCcsJ2NvbnRlbnQnOicxMTo1MuS6hid9  &quot;}<br>
+      <em><strong>返回　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">send_touser_message</span>&quot;,&quot;ok&quot;:&quot;y&quot;}<br />
+      <br>
+      loginid值为用户登录id<br />
+      touid值为对方用户的ID（非loginid）<br />
+      says值为对话内容，需经base64编码<br /><span style="color:#999">例 {&quot;type&quot;:&quot;text&quot;,&quot;content&quot;:&quot;hello, 我是冠军&quot;}<br />
+      例 {&quot;type&quot;:&quot;sound&quot;,&quot;content&quot;:&quot;http://www.halfeet.com/upload-file/2352135.acc&quot;}<br />
+      例 {&quot;type&quot;:&quot;image&quot;,&quot;content&quot;:&quot;http://www.halfeet.com/upload-file/2634237.jpg&quot;}</span><br />
+      -&gt; type值为信息类型，text/image/sound<br />
+      -&gt; content值为信息正文<br />
+      <br>
+    ok值为n表示发送失败，值为y表示发送成功<br></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//读取消息列表，限定来自于指定用户</td>
+  </tr>
+  <tr>
+    <td><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_user_chat/_get_message_ofmy_byuser.php?jsonfrom=</span><br />
+      <em><strong>参数　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">get_message_ofmy_byuser</span>&quot;,&quot;loginid&quot;:&quot;20120627201459-FB6B7994-F5FB-E1F6-5AD4-7FD9F2A1A0DA&quot;,&quot;fromuid&quot;:&quot;1115&quot;}<br />
+      <em><strong>返回　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">get_message_ofmy_byuser</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;list&quot;:[]}<br />
+      <br />
+      loginid值为用户登录id<br />
+      fromuid值为对方用户的ID（非loginid）<br />
+      <br />
+      msglist值为数组<br />
+      says值为对话内容，需经base64解码，解码后得到如下<br />
+      <span style="color:#999">例 {&quot;type&quot;:&quot;text&quot;,&quot;content&quot;:&quot;hello, 我是冠军&quot;}<br />
+      例 {&quot;type&quot;:&quot;sound&quot;,&quot;content&quot;:&quot;http://www.halfeet.com/upload-file/2352135.acc&quot;}<br />
+      例 {&quot;type&quot;:&quot;image&quot;,&quot;content&quot;:&quot;http://www.halfeet.com/upload-file/2634237.jpg&quot;}</span><br />
+      -&gt; type值为信息类型，text/image/sound<br />
+      -&gt; content值为信息正文<br />
+      stime值为发送时间<br />
+    ok值为n表示无最新消息，值为y表示有新消息<br /></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//读取消息列表，所有人发给我的，不限定来自于哪个用户</td>
+  </tr>
+  <tr>
+    <td><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_user_chat/_get_message_ofmy_byall.php?jsonfrom=</span><br />
+      <em><strong>参数　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">get_message_ofmy_byall</span>&quot;,&quot;loginid&quot;:&quot;20120627201459-FB6B7994-F5FB-E1F6-5AD4-7FD9F2A1A0DA&quot;,&quot;fromtime&quot;:&quot;2012-08-08 12:53:50&quot;}<br />
+      <em><strong>返回　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">get_message_ofmy_byall</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;list&quot;:[]}<br />
+      <br />
+      loginid值为用户登录id<br />
+      fromtime值为我上一回读取的时间<br />
+      <br />
+      list值为数组<br />
+      says值为对话内容，需经base64解码，解码后得到如下<br />
+      <span style="color:#999">例 {&quot;type&quot;:&quot;text&quot;,&quot;content&quot;:&quot;hello, 我是冠军&quot;}<br />
+        例 {&quot;type&quot;:&quot;sound&quot;,&quot;content&quot;:&quot;http://www.halfeet.com/upload-file/2352135.acc&quot;}<br />
+        例 {&quot;type&quot;:&quot;image&quot;,&quot;content&quot;:&quot;http://www.halfeet.com/upload-file/2634237.jpg&quot;}</span><br />
+      -&gt; type值为信息类型，text/image/sound<br />
+      -&gt; content值为信息正文<br />
+      stime值为发送时间<br />
+      ok值为n表示无最新消息，值为y表示有新消息<br /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFCC00">//******用户对话接口*****</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="index.html">返回首页</a></td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,672 @@
+
+
+"发送" = "Send";
+
+"关闭" = "Cancel";
+
+"新浪微博" = "Sina Weibo";
+
+"确定" = "OK";
+
+"请输入微博内容" = "Please input here";
+
+"取消" = "Cancel";
+
+"登录" = "Log In";
+
+"用户名" = "Username";
+
+"密码" = "Password";
+
+/*******************************************************************************/
+CFBundleDisplayName = "Halfeet";
+
+"savesucess" = "Saved successfully";
+"savefail" = "Failed to save";
+
+/*************************************/
+"nextButton" = "Next";
+"finishButton" = "Finished";
+"deleteButton" = "Delete";
+"saveButton" = "Save";
+"clearButton" = "Clear marks";
+"profileButton"="Profile";
+"sortButton" = "Filter";
+"returnButton" = "Back";
+"changeNotice" = "You can`t be changed after your choice";
+"noticeNotice" = "Notice";
+"cancelNotice" = "Cancel";
+"confirmNotice" = "Confirm";
+"uploadFailNotice" = "Upload failed";
+"chuliNotice" = "Processing…";
+"profileAlertNotice" = "Head photo has been changed, save?";
+//获取数据失败、请求数据异常。
+"network_error" = "Data return failure";
+"data_error" = "Data request failure";
+"network_unavailabel" = "Current network is unavailable, please check";
+
+//关于刷新的
+"loadingNotice" = "Loading…";
+"loadMoreButton" = "Click for more";
+"lastRefresh" = "Last refresh：";
+"loosenRefresh" = "Release to refresh…";
+"pulldownRefresh" = "Pull to refresh…";
+/*************************************/
+//BanBu_AppDelegate
+"luckPeopleTitle" = "Peoples";
+"selectTitle" = "Bouquet";
+"broadcastTitle" = "Square";
+"dialogueTitle" = "Chat";
+"myFriendTitle" = "Friends";
+"mySpaceTitle" = "MyHome";
+"pinglunNotice" = "If you prefer to use halfeet, Please take one minute scoring for us! Thank you for your support!";
+
+//"luckPeopleTitle" = "People nearby";
+//"broadcastTitle" = "Post nearby";
+//"selectTitle" = "Throwing ball";
+//"mySpaceTitle" = "My home";
+
+//未登录、登录、注册界面
+/**********************************************/
+//BanBu_UserAgreement
+"userAgreeTitle" = "User Agreement";
+//BanBu_UnloginedController
+"fristTitle" = "Halfeet";
+"regButton"  = "Register";
+"logButton" = "Log in";
+"scanButton" = "Visitor";
+"nearPeople" = "people nearby";
+"pinglunTitle" = "Rating For Halfeet";
+
+"propagandaTitle" = "Halfeet: Chat、Meet、Date \nwith stranger nearby";
+"openPush" = "Push notifications have been closed";
+"howOpenPush" = "Only halfeet keep on, can receive messages, to turn push notifications, visit Settings> Notifications>Halfeet";
+
+"laterButton" = "Notice late";
+"newButton" = "Now Review";
+//BanBu_LoginViewController
+"loginTitle" = "Log in";
+"userNameLabel" = "Account";
+"userPlabeholder" = "Email or Halfeet Account";
+"pwPlaceholder" = "Enter password to log in";
+"loading" = "Login in";
+"userNameNil" = "Enter account";
+"passWordError" = "Enter valid password";
+"userNameOrpassWordError" = "User name or password error";
+//注册
+/**********************************************/
+
+//BanBu_RegViewController
+"regTitle" = "Register";
+"emailLabel" = "Email";
+"passwordLabel" = "Password";
+"pPlaceholder" = "6-20 characters";
+"confirmationLabel" = "Confirm";
+"cPlaceholedr" = "Re-enter password";
+"bottomNotice" = "\n Email is the account to log in Halfeet, and is the only certificate to retrieve password, please ensure that the mail is valid and correct.\n Agree Halfeet user agreement to register";
+"errorMsg" = "Enter email address";
+"errorMsg1" = "Enter correct email address ";
+"errorMsg2" = "Enter password";
+"errorMsg3" = "Password length is not less than 6-bit characters";
+"errorMsg4" = "Re-enter password";
+"errorMsg5" = "Two passwords are inconsistent";
+"detectEmail" = "Testing email address";
+"successEmail" = "Congratulations, the email address is available";
+"failEmail" = "Sorry, this email address has been registered!";
+//BanBu_NameAndSexController
+"nameAndSexTitle" = "Name and Gender";
+"nameLabel" = "Name";
+"nameNotice" = "Use real name for rapid discovery and contact of others";
+"namePlaceholder" = "Enter your name";
+"boyItem" = "    Male ♂    ";
+"girlItem" = "    Female ♀    ";
+"selectSex" = "Your choice : ";
+"editSex" = "Edit";
+"boy" = "Male";
+"girl" = "Female";
+//BanBu_BloodTypeAndHeightController
+"bodyAndBloodTitle" = "Body and Blood";
+"heightLabel" = "    Choose your height (cm)";
+"bloodLabel" = "    Choose your blood type";
+"wightLabel" = "    Choose your weight (kg)";
+//BanBu_BirthdayViewController
+"birthdayTitle" = "Date of birth";
+"ageLabel" = "Age";
+"starLabel" = "Constellation";
+"birthNotice" = " Your birthday will not be shown in personal information. You need to be or above 18 years old to use this application.";
+"ageNumber" = "Age";
+"ageNotice" = "Enter your age";
+"starItem" = "Aquarius";
+"starItem1" = "Pisces";
+"starItem2" = "Aries";
+"starItem3" = "Taurus";
+"starItem4" = "Gemini";
+"starItem5" = "Cancer";
+"starItem6" = "Leo";
+"starItem7" = "Virgo";
+"starItem8" = "Libra";
+"starItem9" = "Scorpio";
+"starItem10" = "Sagittarius";
+"starItem11" = "Capricornus";
+//BanBu_SetAvatarViewController
+"avatarTitle" = "Set head photo";
+"btnXiangCe" = "Select a photo";
+"btnCamera" = "Take a photo";
+"sendAvater" = "Uploading photo";
+"selectAvater" = "Select a photo";
+"registering" = "Registering…";
+"getMessage" = "Getting the login information…";
+"reUpload" = "Reload";
+"waitauditNotice" = "Photo uploaded, will display after check .";
+/**********************************************/
+
+/**********************************************/
+
+//附近的人和广播
+/**********************************************/
+//BanBu_ListViewController
+"titleItem" = "People nearby";
+"titleItem1" = "Post nearby";
+"listTitle" = "Female only";
+"listTitle1" = "Male only";
+"listTitle2" = "All";
+"listButton" = "Post";
+"distanceLabel" = "Latest online:";
+"intimeLabel" = "Release on：";
+"commendLabel" = "Comment";
+"reportLabel" = "Report";
+"reportNotice" = "Report submitted!";
+"tipNotice" = "Location comfirm";
+"tipNotice1" = "Location failure due to environment and network condition!";
+"noticeLabel" = " No one nearby, pull down to look for people!";
+"noticeLabel1" = "No post nearby, release one right now!";
+//动态详情页面
+//BanBu_DynamicDetailsController
+"replyTime" = "Replied on：";
+"replyTitle" = "Reply";
+"footLabel" = "Be the first to comment! ";
+//BanBu_ReplyViewController
+"sendReply" = "Send";
+"sendingNotice" = "Sending…";
+
+//BanBu_GreetingViewController
+"requestUser" = "Request";
+"saywhat" = "Have a word to say hello";
+"confirmFriend" = "Confirm";
+"sendS" = "Sent successfully";
+"sendF" = "Failed to send";
+
+//别人的资料
+//BanBu_PeopleProfileController
+"displayPeopleProfile" = "Profile";
+"displayPeopleNews" = "Timeline";
+"relationshipLabel" = "Relationship";
+"writeMessage" = "      Message";
+"addLink" = "      Follow";
+"delLink" = "      Unfollow";
+"pullBlackReport" = "    Options";
+"friendShip" = "Follow";
+"friendShip1" = "Fans";
+"friendShip2" = "Friend";
+"friendShip3" = "Blacklist";
+"friendShip4" = "Stranger";
+"friendShip5" = "Yourself";
+"aliasAction" = "Add notes";
+"pullBlackTitle" = "Add to blacklist";
+"pullBlackAndReport" = "Add to blacklist and report";
+"viewBlackList" = "View blacklist";
+"linkButton" = "Sure to follow?";
+"unlinkButton" ="Sure to cancel follow";
+"linkSuccess" = "  Successful follow ";
+"unlinkSuccess" = "  Cancel follow  ";
+"badMessage" = "Spam information";
+"badMessage1" = "Sexual content";
+"badMessage2" = "Improper information";
+"badMessage3" = "Identity Theft";
+"badDetailMessage" = "Enter detail reasons";
+"reportUser" = "Report this user";
+"submitButton" = "Submit";
+"pullBlackOK" = "Add to blacklist successfully";
+"blackAndReportOK" = "Report successfully and add to blacklist";
+"addFriend" = "Sure to add friend ?";
+
+//BanBu_NoteView
+"editNote" = "Edit Note";
+"aliasPlaceholder" = "Enter Alias";
+"originalName" = "Old name";
+"addNote" = "Edit Note name";
+
+//BanBu_ReleaseController
+"releaseTitle" = "Release post";
+"sayRelease" = "Tell people nearby you feelings";
+"fenLabel" = "Share to social networking";
+"sendNow" = "Send immediately";
+"locationNotice" = "Location data is loaded!";
+"sinaBing" ="Successful Connect to Sina microblog!";
+"TXBing" = " Successful Connect to Tencent microblog!";
+"UnsinaBing" ="UnConnect to Sina microblog! ";
+"UnTXBing" = " UnConnect to Tencent microblog!";
+"shareToSina" = "Share to Sina ";
+"shareToTX" = "Share to Tencent  ";
+"isSendBro" = "Sure to release post ";
+"contentNil" = "No text !";
+"oneImage" = "Must have a picture";
+
+"releaseSuccess" = "Broadcast content has been submitted, please wait audit!";
+
+"isAgreeNotice" = "Please read and agree to the Halfeet user agreement";
+"aStr" = "I have read";
+"bStr" = " Halfeet user agreement";
+"seqingNotice" = "Users to send pornographic or other adverse information, such as has been reported and verified, can no longer register or log in to any Halfeet number.";
+
+
+
+//涂鸦页面
+//BanBu_GraffitiController
+"brushSize" = "Brush size:";
+"emptySheet" = "Sure to delete current doodle?";
+"sendSheet" = " Sure to send current doodle?";
+"sendAndSaveImage" = "Send and save to album ";
+"onlySendImage" = "Send only";
+"changeBackImage" = "Change the background?";
+
+/**********************************************/
+//抛绣球
+/**********************************************/
+
+//BanBu_SelectController,抛绣球的选择页面
+"placeLabel" = "One place";
+"moodLabel" = "A diary";
+"fateLabel" = "A fate";
+"throwOneLabel" = "Throw one";
+"myBallLabel" = "My ball";
+//BanBu_SelectPlaceController
+"selectPlaceTitle" = "Target location";
+"setCityLabel" = "Set city";
+"setPlaceLabel" = "Place name";
+"hotPlaces" = "Hot places";
+"cityplaceNil" = "City or place name shall not be empty";
+"placeNULL" = "This place does not exist";
+"huntNotice" = "Searching...";
+//BanBu_ThrowBallController
+"throwBallTitle" = "Throw ball";
+"editAlert" = "Whether to give up the edited content";
+"sayBall" = "Wrap your feelings in the ball";
+"emptyToolItem" = "Empty";
+"finishToolItem" = "Finished";
+"funLabel"= "Camera";
+"funLabel1"= "Album";
+"funLabel2"= "Voice";
+"funLabel3"= "Doodle";
+"funLabel4"= "Location";
+"selectOneway" = "Tip: content of each ball could only contain one of text, photos, album, voice, graffiti and my location.";
+"throwNow"= "Throw right now";
+"editActionSheet" = "Whether to cover the edited content";
+"wordNilNotice" = "No text ";
+"throwAlert" = "Whether to throw ball";
+"throwSuccess" = "Successful in throwing ball!";
+
+//BanBu_MyBallsController
+"myBallTitle" = "My ball";
+/**********************************************/
+
+
+//对话
+/**********************************************/
+"mySay" = "[My saying]";
+"talkPicture" = "[Pictures]";
+"talkLocation" = "[Location]";
+"talkSound" = "[Voice]";
+//BanBu_MakeBigMapViewController
+"makebigTitle" = "Location details";
+/**********************************************/
+//友情提示UIView
+"helpfulTitle" = "Tips";
+"warningLabel" = "For users who send “one night stand” and other related spam information, if reported and verified, their Halfeet accounts may be banned permanently.";
+"infoLabel" = "In serious cases, they would be transferred to the police ";
+"chat_btn" = "I know";
+"sendLocation" = "Send your location?";
+"seeMoreMessage" = "View more chats";
+
+/*************************/
+"copyButton" = "Copy";
+"shareButton" = "Share";
+
+"opera" = "操作";
+"deleteMes" = "Clean chat history";
+"forward" = "Send to other";
+"retransmission" = "Retry to send";
+"confomForward" = "Are you sure to resend ? ";
+"confirmDelete" = "Are you sure to delete it ?";
+"newsState" = " Send ";
+"newsState1" = " Read ";
+"newsState2" = " New ";
+"newsState3" = " Sending ";
+"newsState4" = " Fail ";
+
+"errcode_fail" = "Share fail,please try again";
+"errcode_cancel" = "Canceled";
+"shareSuccess" = "Successful";
+"comefromIceBreak" = "From Chatter";
+"comefromtuya" = "From Doodle";
+
+"noticeNotLog" = "Please login !";
+"flagTitle" = "Symbols";
+"smileTitle" = "Expression";
+"addBtn" = "Add";
+"locationBtn" = "Location";
+"holdtotalk" = "Hold to Talk";
+"kongAlert" = "Can not send a blank message";
+
+/***************************/
+//表情文字
+"smileItem" = "Invader";
+"smileItem1" = "Alburnus";
+"smileItem2" = "Variety";
+"smileItem3" = "Hungry";
+"smileItem4" = "Happy";
+"smileItem5" = "King";
+"smileItem6" = "Trouble";
+"smileItem7" = "Strive";
+"smileItem8" = "Surprised";
+"smileItem9" = "Cute";
+"smileItem10" = "Pitiful";
+"smileItem11" = "Passing";
+"smileItem12" = "Pa Mic";
+"smileItem13" = "Anger";
+"smileItem14" = "Nurturing";
+"smileItem15" = "Mercy";
+"smileItem16" = "Flighty";
+"smileItem17" = "Sleep";
+"smileItem18" = "Cool";
+"smileItem19" = "Pain";
+"smileItem20" = "Shy";
+"smileItem21" = "Pressure";
+"smileItem22" = "Sinister";
+"smileItem23" = "Wink";
+"smileItem24" = "Money";
+"smileItem25" = "Funny";
+"smileItem26" = "Squib";
+"smileItem27" = "Dreary";
+"smileItem28" = "T-Show";
+"smileItem29" = "Read";
+"smileItem30" = "Twist";
+"smileItem31" = "Dance";
+"smileItem32" = "Proud";
+"smileItem33" = "Sports";
+"smileItem34" = "SOS";
+"smileItem35" = "Out away";
+"smileItem36" = "G-Style";
+"smileItem37" = " GO ";
+"resend"="Resend";
+
+/*****************破冰语*********************/
+
+//BanBu_SearchIceViewController
+"searchIce" = "Chatter";
+"searchTextField" = "  Enter a keyword";
+"searchIceBtn" = "Search";
+"tuijianLabel" = "Hot Keywords";
+"searchkey" = "Search-";
+
+"ice_actionSheetButtionTitle" = "Send";
+"ice_actionSheetButtionTitle1" = "Share to webchat friend";
+"ice_actionSheetButtionTitle2" = "Share to webchat Social";
+
+//BanBu_IceBreakerController
+"ice_textTitle" = "Text icebreak";
+//BanBu_IceBreaker_Voice
+"ice_voiceTitle" = "Audio icebreak";
+//BanBu_icePicController
+"ice_picTitle" = "Pictures icebreak";
+
+"scanPic" = "Picture browsing";
+
+//好友圈
+/**********************************************/
+//BanBu_MyFriendViewController
+"friendTitle" = "Friends";
+"fItem" = "By distance";
+"fItem1" = "By last login time";
+"fItem2" = "By adding time";
+"summary_g" = "Follow";
+"summary_f" = "Fans";
+"summary_h" = "Friends";
+"friendNoticeLabel" = "You have not followed about a friend, and follow people nearby now!";
+"friendNoticeLabel1" = "You have no fans, find mutual ones!";
+"friendNoticeLabel2" = "You have no friends, add people nearby now!";
+//BanBu_AddNewFriendViewController
+"andNewFriendTitle" = "Add friends";
+"searchBtn" = "Search";
+"zibarBtn" = "Scan QR code";
+"headerAndholder" = "  Enter Email or Halfeet account";
+"nilNotice" = "Content can not be null!!!";
+"selfNotice" = "It’s yourself!!!";
+"searchNotice" = "Searching...";
+"emailError" = "Email address format error";
+"resquesting" = "Loading the former request…";
+"readerTitle" = "Scan and add friends";
+/**********************************************/
+
+//我的空间
+/**********************************************/
+
+//BanBu_MySpaceViewController
+"myApp" = "  My applications";
+"myCenter" = "  My center";
+"myinfoLabel" = "Profile";
+"systemLabel" = "Settings";
+"dymaicLabel" = "Timeline";
+"visitorLabel" = "Visitors";
+"helperLabel" = "Help";
+//个人资料
+/**********************************************/
+//BanBu_MyProfileViewController
+"editAvatar" = "Edit photo";
+"profileSection" = "  Basic information";
+"profileSection1" = "  Profile";
+"profileSection2" = "  Connect information";
+"profileSection3" = "  Account information";
+
+"weiboBing" = "Already Connect";
+"weiboUnBing" = "UnConnect";
+"reBinding" = "UnConnect";
+"sinaSheetTitle" = "Sina microblog";
+"TXSheetTitle" = "Tencent microblog";
+"updateAvatarSuccess" = "Update photo successfully";
+"reBindingSuccess" = "UnConnect successfully";
+"updateInfo" = "Update data…";
+"updateAvatar" = "Update photo…";
+
+"bangdingSina" = "Connect sina weibo";
+"bangdingTX" = "Connect tencent weibog";
+
+//太特别
+"changeInfo" = "You have changed %@, save?";
+// 0 section
+
+"s0c0" = "Halfeet account";
+"s0c1" = "QR code";
+"s0c2" = "Personal signature";
+"s0c2DefaluteValue" = "People nearby could know your latest dynamics through your signature";
+
+//1 section
+
+"s1c0" = "Height (cm)";
+"s1c1" = "Blood type";
+"s1c2" = "Weight (kg)";
+
+//2 section
+"s2c0" = "Interests and hobbies";
+"s2c0DefaluteValue" = "Your interests and hobbies";
+"s2c1" = "Most visit places";
+"s2c1DefaluteValue" = "Your most visit places";
+"s2c2" = "Company";
+"s2c2DefaluteValue" = "Companies you have worked in before";
+"s2c3" = "Occupation";
+"s2c3DefaluteValue" = "Your current occupation";
+"s2c4" = "School";
+"s2c4DefaluteValue" = "Schools you have attended before";
+
+
+//3 section
+
+"s3c0" = "Sina microblog";
+"s3c1" = "Tencent microblog";
+
+//编辑头像
+/**********************************************/
+//BanBu_PhotoManager
+"addPhoto" = "Add photos";
+"changePhoto" = "Change or delete photo";
+"deletePhoto" = "Delete photo";
+"mustOneImage" = "Save one photo at least";
+
+
+//职业页面
+//BanBu_WorkViewController
+"workTitle" = "Occupation";
+"workNil" = "Occupation could not be null";
+"workBelong" = "  Industry involved";
+"workItem" = "Computer/internet/communication";
+"workItem1" = "Production/processing/manufacturing";
+"workItem2" = "Business/services/individual operation";
+"workItem3" = "Finance/banking/investment/insurance";
+"workItem4" = "Cultures/advertising/media";
+"workItem5" = "Entertainment/arts/performance";
+"workItem6" = "Medical treatment/nursing/pharmacy";
+"workItem7" = "Lawyers/law";
+"workItem8" = "Education/training";
+"workItem9" = "Civil servants/public institutions";
+"workItem10" = "Students";
+//二维码名片页面
+//BanBu_ZibarController
+
+"zibarTitle" = "QR code name card";
+"banbuNum" = "Halfeet account：";
+"descripLabel" = "Scan the above picture and add my Halfeet account";
+/**********************************************/
+//系统设置
+/**********************************************/
+//BanBu_SettingViewController
+"settingTitle" = "Settings";
+"exitBtn" = "Exit";
+"messageMan" = "Message management";
+"userNameMan" = "Account management";
+"stealthLabel" = "Invisible mode";
+"soundSwitch" = "Sound";
+"newmsgNotice" = "News alert";
+"soundType" = "Tone type";
+//"stealthDetailLabel" = "";
+
+"locationLabel" = "Location-based services";
+"remindLabel" = "Alert settings";
+"muteLabel" = "Silence period";
+
+//"muteDetailLabel" = "";
+
+"PWSettingLabel" = "Password setting";
+"blackLabel" = "Blacklist";
+"feedBackLabel" = "Feedback";
+"commendForBanbu" = " Comment for Halfeet";
+"userHelpr" = "User help";
+
+//BanBu_BlacklistViewController
+
+"blackTitle" = "Blacklist";
+"unlockButton" = "Remove";
+
+//BanBu_ChangePWViewController
+
+"changePWTitle" = "Change password";
+"errorMsg6" = "Enter original password";
+"errorMsg7" = "Enter new password";
+"changePWNotice" = "Changing…";
+"changeOK" = "Successful password setting";
+"oldPWLabel" = "Original PW";
+"inputOldPW" = "Enter original password";
+"newPWLabel" = "New PW";
+"conPWLabel" = "Re-enter PW";
+
+/**********************************************/
+//动态一览
+/**********************************************/
+//BanBu_DynamicController
+"dynamicTitle" = "Timeline";
+"displayVisitRecord" = "Visitors";
+"displayFriendNews" = "Timeline";
+"friendNewsNoticeLabel" = "No timeline of friends, as you have not added any friends!";
+"visitRecordNoticeLabel" = "No one visit you, release new post right now!";
+/**********************************************/
+//帮助
+//BanBu_HelpViewController
+"helpTitle" = "About Halfeet";
+"descripLabel" = "Halfeet is a mobile application that focus to find nearby people , and support through the mobile phone network to send voice SMS, video, pictures and text, can be found based on geographic location nearby. ";
+"tipsLabel" = "1) dialogue with people in the vicinity, \n2) add a friend \n3) Friends Circle updates, browse friends dynamic";
+/**********************************************/
+//我的应用
+"trainTitle" = "BJ subway";
+
+
+/***********新版broadcast*********/
+"pictureAndVoiceTitle" = "Pictures and voice";
+"addAPhoto" = "\nAdd a photo first\n\n";
+"timeshortNoticte" = "Please long press the record button";
+
+"textAndTagsTitle" = "Text and Tags";
+"textDescription" = "Please enter the text in this description";
+"share_broadcast" = "Share to:";
+"bindNow" = "Now go to connect";
+"voiceOrTextNotice" = " Completed at least one record or text";
+
+"commentcount1" = "Click to view all";
+"commentcount2" = "comments";
+
+"tagTextfield" = "Tags";
+"tagTextPlaceholder" = "Enter tags, separated by a space";
+"writeSomething" = "Write something at the moment...";
+
+"km500" = "Search in 500km";
+"km2000" = "Search in 2000km";
+
+
+// 我的设置里面的
+"longVoice" = "Push to Comment";
+"zan_failed" = "You already submitted";
+"zan_success" = "Submitted to the success";
+
+"notific"="Notifications";
+
+"notificChat"="Chat Notifications";
+
+"notificFriend"="Timeline Notifications";
+
+"jiaweihaoyou" = "Message";
+"kaishiduihua" = "Follow";
+
+
+"requestFrom"="I`ve accepted your friend request. Now start to chat ! ";
+
+"moreTitle" = "More";
+
+"sexSelect" = "Gender";
+"timeSelect" = "Last online";
+"selectTitle" = "Filter By";
+
+
+//BanBu_ToseeGifViewController
+
+//"tuyaEdit" = "Save the doodle";
+"tuyaEdit" = "Edit with doodle";
+
+"tuyaReply" = "Reply with doodle";
+"continueEdit" = "Return to modify";
+"saveToAlum" = "Save to phone album";
+
+/********************/
+//注册和修改资料的分享
+"reginShare" = "I'm in Halfeet(www.halfeet.com) - Chat, Meet, Date with people nearby.";
+"photoShare" = "I've upload new photo in Halfeet(www.halfeet.com).";
+"followShare" = "I followed %@ in Halfeet.";
+
+

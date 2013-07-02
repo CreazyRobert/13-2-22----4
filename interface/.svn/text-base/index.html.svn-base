@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>半步网接口开发说明文档</title>
+<style>
+body{line-height:22px;}
+a{color:#06F;text-decoration:none;}
+.smalltitle{color:#00F}
+</style>
+</head>
+
+<body>
+<table width="950" border="0" align="center" cellpadding="5" cellspacing="0">
+  <tr>
+    <td height="32" align="center"><strong>半步网接口开发说明文档</strong></td>
+  </tr>
+  <tr>
+    <td style="color:#960">(1). 接口先用空白函数封装一次，当前不含加密算法，未来将在此封装函数中加入加密算法<br>
+      (2). 接口网址www.halfeet.com设成全局常量以保持调用一致性，未来将使用IP替换此域名<br />
+      (3). 参数只有一个，名为jsonfrom，参数的传入值先base64编码，取回值进行base64解码<br>
+      (4). 返回值n表示逻辑假，否定，错误，返回值y表示逻辑真，肯定，正确<br>
+      (5). 登录所获得loginid保存在手机端内存中，大多数接口调用需使用到loginid的值<br>
+      (6). jsonfrom值的第一个参数为fc，值为接口的名称<br />
+      (7). 文档内的接口参数均指base64编码前的值，返回值均指base64解码后的值<br />
+      (8). 上传图片，声音，视频可用两种接口形式，直接用表单以文件域的形式提交和先BASE64编码后以json形式提交<br>
+      (9). jsonfrom值若格式不正确或参数无法解析，服务器端视为非法调用，且不返回任何结果<br></td>
+  </tr>
+  <tr>
+    <td bgcolor="#DEDEDE"><p>example 示例完整路径：<br>
+    <span style="font-size:12px;"><font color="red">http://www.halfeet.com/_user_login/_check_email_exist.php?jsonfrom=</font><font color="green">eyJmYyI6ImNoZWNrX2VtYWlsX2V4aXN0IiwiZW1haWwiOiJhYmNkMTIzNDU2QDE2My5jb20ifQ==</font></span> <br>
+        发送的值base64编码前 {&quot;fc&quot;:&quot;check_email_exist&quot;,&quot;email&quot;:&quot;abcd123456@163.com&quot;}<br>
+        返回值  eyJmYyI6ImNoZWNrX2VtYWlsX2V4aXN0IiwiZW1haWwiOiJhYmNkMTIzNDU2QDE2My5jb20iLCJleGlzdCI6Im4ifQ==<br />
+    将返回值base64解码后得到 {&quot;fc&quot;:&quot;check_email_exist&quot;,&quot;email&quot;:&quot;abcd123456@163.com&quot;,&quot;exist&quot;:&quot;n&quot;}<br>
+    </p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="950" border="1" align="center" cellpadding="5" cellspacing="0" bgcolor="#EEEEEE">
+  <tr>
+    <td align="center" width="33%"><a href="userlogin.html">**用户登录、注册接口**</a></td>
+    <td align="center" width="33%"><a href="userchat.html">**对话接口**</a></td>
+    <td align="center" width="33%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="nearuser.html">**附近的人接口**</a></td>
+    <td align="center"><a href="broadcast.html">**附近动态广播，好友动态广播接口**</a></td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="friend.html">**好友圈**</a></td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="sysdict.html">**基本资料字典接口**</a></td>
+    <td align="center"><a href="mapcity.html">**地图信息接口**</a></td>
+    <td align="center"><a href="postfile.html">**上传文件接口**</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="application.html">**应用**</a></td>
+    <td align="center">&nbsp;</td>
+    <td align="center">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

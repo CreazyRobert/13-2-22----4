@@ -1,0 +1,672 @@
+
+
+"发送" = "Send";
+
+"关闭" = "Cancel";
+
+"新浪微博" = "Sina Weibo";
+
+"确定" = "OK";
+"请输入微博内容" = "Please input here";
+
+"取消" = "Cancel";
+
+"登录" = "Log In";
+
+"用户名" = "Username";
+
+"密码" = "Password";
+
+/*******************************************************************************/
+CFBundleDisplayName = "하프피트";
+
+"savesucess" = "저장되였습니다";
+"savefail" = "저장에 실패하였습니다";
+
+/*************************************/
+"nextButton" = "다음";
+"finishButton" = "완료";
+"deleteButton" = "삭제";
+"saveButton" = "저장";
+"clearButton" = "클리어 마크";
+"profileButton"="프로필";
+"sortButton" = "선택";
+"returnButton" = "돌아 가기";
+"changeNotice" = "제출되면 변경할 수 없습니다";
+"noticeNotice" = "도움말";
+"cancelNotice" = "취소";
+"confirmNotice" = "확정";
+"uploadFailNotice" = "업로드에 실패했습니다";
+"chuliNotice" = "처리 중";
+"profileAlertNotice" = "아바타의 정보가 변경되어 그것을 저장 하시겠습니까";
+//获取数据失败、请求数据异常。
+"network_error" = "데이터로드 실패";
+"data_error" = "데이터 요청 할 수 없습니다";
+"network_unavailabel" = "현재 네트워크를 사용할수　없는 경우 확인하십시오";
+
+//关于刷新的
+"loadingNotice" = "로딩 중 ...";
+"loadMoreButton" = "클릭하여 다음보기";
+"lastRefresh" = "마지막 업데이트";
+"loosenRefresh" = "손을 떼고 업데이트";
+"pulldownRefresh" = "아래로 뻗어 업데이트";
+/*************************************/
+//BanBu_AppDelegate
+"luckPeopleTitle" = "주위의 사람";
+"selectTitle" = "공 던지기";
+"broadcastTitle" = "근처 광장";
+"dialogueTitle" = "채팅";
+"myFriendTitle" = "친구";
+"mySpaceTitle" = "홈";
+"pinglunNotice" = "당신은 하프 피트의 사용을 선호하는 경우에는　１분만　시간을　내　주십시오！감사합니다！";
+
+//"luckPeopleTitle" = "People nearby";
+//"broadcastTitle" = "Post nearby";
+//"selectTitle" = "Throwing ball";
+//"mySpaceTitle" = "My home";
+
+//未登录、登录、注册界面
+/**********************************************/
+//BanBu_UserAgreement
+"userAgreeTitle" = "사용자 사용권 계약";
+//BanBu_UnloginedController
+"fristTitle" = "하프 피트";
+"regButton"  = "등록";
+"logButton" = "로그인";
+"scanButton" = "고객";
+"nearPeople" = "근처에서";
+"pinglunTitle" = "하프 피트에 대한 평가";
+
+"propagandaTitle" = "하프 피트 : 가까운 사람과 채팅";
+"openPush" = "푸시 알림은 해제되여　있습니다";
+"howOpenPush" = "하프 피트의 메시지의 수신을 계속하려면　푸시 알림，방문 설정>알림>하프 발을 활성화";
+
+"laterButton" = "나중에 알림";
+"newButton" = "Halfeet을 평가";
+//BanBu_LoginViewController
+"loginTitle" = "로그인";
+"userNameLabel" = "계정";
+"userPlabeholder" = "이메일 또는 하프 피트 No.";
+"pwPlaceholder" = "하프 피트의 로그인 암호를 입력하십시오";
+"loading" = "등록 중 ...";
+"userNameNil" = "아이디";
+"passWordError" = "올바른 암호를 입력하십시오";
+"userNameOrpassWordError" = "입력한 아이디와 비밀번호로 인증하는데 실패했습니다.";
+//注册
+/**********************************************/
+
+//BanBu_RegViewController
+"regTitle" = "등록";
+"emailLabel" = "E-mail 주소";
+"passwordLabel" = "암호";
+"pPlaceholder" = "최소 6자리 이상 이여야합니다";
+"confirmationLabel" = "암호 중복";
+"cPlaceholedr" = "암호를 다시 입력하기";
+"bottomNotice" = "\n 등록하면 자동으로 하프 피트 사용자 사용권 계약에 동의하게됩니다.";
+"errorMsg" = "E-mail 주소를 입력하십시오";
+"errorMsg1" = "유효한 이메일 주소를 입력하십시오";
+"errorMsg2" = "비밀번호를 입력하십시오";
+"errorMsg3" = "비밀암호는 최소 6자리 이상 이여야합니다";
+"errorMsg4" = "비밀암호를 다시한번 입력하십시오";
+"errorMsg5" = "입력 한 두 암호가 일치하지 않습니다";
+"detectEmail" = "이메일 주소를 확인 중입니다 ...";
+"successEmail" = "사용 가능한 사서함입니다,축하합니다!";
+"failEmail" = "죄송합니다 사서함이 등록되어 있습니다!";
+//BanBu_NameAndSexController
+"nameAndSexTitle" = "이름과 성별";
+"nameLabel" = "이름";
+"nameNotice" = "더 빨리  찾을수 있게 접촉하는 사람들의 진짜 이름을 사용하도록";
+"namePlaceholder" = "이름을 입력하십시오";
+"boyItem" = "    남자 ♂    ";
+"girlItem" = "    여자 ♀    ";
+"selectSex" = "선택한 성별";
+"editSex" = "수정";
+"boy" = "남";
+"girl" = "여";
+//BanBu_BloodTypeAndHeightController
+"bodyAndBloodTitle" = "몸과 혈액형";
+"heightLabel" = "키는 몇 cm입니까";
+"bloodLabel" = "혈액형을 선택해주세요";
+"wightLabel" = "체중 (kg)을 선택하십시오";
+//BanBu_BirthdayViewController
+"birthdayTitle" = "생년월일";
+"ageLabel" = "나이";
+"starLabel" = "별자리";
+"birthNotice" = "당신의 생년월일을 입력하여 시스템이 자동으로 년 계산합니다 나이와 별자리.생년월일은 개인 프로필에 표시되지 않습니다.이 프로그램은 12 세 이상을 상대로 합니다";
+"ageNumber" = "세";
+"ageNotice" = "나이를 입력하십시오";
+"starItem" = "물독자리";
+"starItem1" = "물고기자리";
+"starItem2" = "양자리";
+"starItem3" = "황소자리";
+"starItem4" = "쌍동이자리";
+"starItem5" = "게자리";
+"starItem6" = "사자자리";
+"starItem7" = "처녀자리";
+"starItem8" = "천칭자리";
+"starItem9" = "전갈자리";
+"starItem10" = "사수자리";
+"starItem11" = "염소자리";
+//BanBu_SetAvatarViewController
+"avatarTitle" = "아바타를 설치한다";
+"btnXiangCe" = "선택 앨범 사진";
+"btnCamera" = "즉시 촬영";
+"sendAvater" = "아바타를 업로드 중";
+"selectAvater" = "아바타 선택";
+"registering" = "등록학고 있습니다 …";
+"getMessage" = "로그인 정보 검색…";
+"reUpload" = "리로드 합니다";
+"waitauditNotice" = "이미지 업로드 심사 중";
+/**********************************************/
+
+/**********************************************/
+
+//附近的人和广播
+/**********************************************/
+//BanBu_ListViewController
+"titleItem" = "주위의 사람";
+"titleItem1" = "근처 광장";
+"listTitle" = "여";
+"listTitle1" = "남";
+"listTitle2" = "전체";
+"listButton" = "리뷰";
+"distanceLabel" = "최신 온라인";
+"intimeLabel" = "리뷰";
+"commendLabel" = "댓글";
+"reportLabel" = "보고";
+"reportNotice" = "보고가 제출되었습니다";
+"tipNotice" = "위치를 확정했습니다";
+"tipNotice1" = "환경이나 사용가능한 네트워크연결 실패로 인해 위치 확정에 실패";
+"noticeLabel" = "주변에 사람이 없습니다 아래로 스크롤하여보십시오！";
+"noticeLabel1" = "근처 광장에는 정보가 없습니다 신속하게 발표하십시오!";
+//动态详情页面
+//BanBu_DynamicDetailsController
+"replyTime" = "답글：";
+"replyTitle" = "답글";
+"footLabel" = "1 개의 댓글이 있습니다, ​ 의견 시도";
+//BanBu_ReplyViewController
+"sendReply" = "전송";
+"sendingNotice" = "전송하고 있습니다…";
+
+//BanBu_GreetingViewController
+"requestUser" = "친구 요청";
+"saywhat" = "인사";
+"confirmFriend" = "친구 확인";
+"sendS" = "발신 성공";
+"sendF" = "발신실패";
+
+//别人的资料
+//BanBu_PeopleProfileController
+"displayPeopleProfile" = "프로필";
+"displayPeopleNews" = "최근 업데이트";
+"relationshipLabel" = "상호 관계";
+"writeMessage" = "      대화";
+"addLink" = "      팔로우";
+"delLink" = "      팔로워 삭제";
+"pullBlackReport" = "    옵션";
+"friendShip" = "팔로우";
+"friendShip1" = "팬";
+"friendShip2" = "친구";
+"friendShip3" = "블랙리스트";
+"friendShip4" = "낯선 사람";
+"friendShip5" = "본인";
+"aliasAction" = "메모를 추가";
+"pullBlackTitle" = "차단";
+"pullBlackAndReport" = "차단하고 보고";
+"viewBlackList" = "블랙리스트보기";
+"linkButton" = "팔로우 확정?";
+"unlinkButton" ="팔로우 취소를 확정?";
+"linkSuccess" = "  팔로우을 성공 ";
+"unlinkSuccess" = "  팔로우 취소  ";
+"badMessage" = "희롱 정보";
+"badMessage1" = "포르노";
+"badMessage2" = "잘못된 개인 정보";
+"badMessage3" = "다른 사람의 데이터를 훔침";
+"badDetailMessage" = "특정 이유를 입력하십시오";
+"reportUser" = "이 유저를 신고하기";
+"submitButton" = "제출";
+"pullBlackOK" = "블랙리스트 성공";
+"blackAndReportOK" = "사용자를 차단하고 신고에 성공";
+"addFriend" = "친구 추가를 확정 ?";
+
+//BanBu_NoteView
+"editNote" = "닉네임";
+"aliasPlaceholder" = "닉네임을 입력하십시오";
+"originalName" = "기존 이름";
+"addNote" = "이름을 수정";
+
+//BanBu_ReleaseController
+"releaseTitle" = "게시";
+"sayRelease" = "주위 사람들에게 지금의 기분을 전한다";
+"fenLabel" = "소셜 네트워킹 사이트에 공유";
+"sendNow" = "즉시 전송";
+"locationNotice" = "위치 데이터가 로드되었습니다!";
+"sinaBing" ="sina weibo ID를 관련!";
+"TXBing" = " Tencent weibo ID를 관련!";
+"UnsinaBing" ="sina weibo ID를 상관하지 않습니다! ";
+"UnTXBing" = " Tencent 마이크로 블로그의 미 관련";
+"shareToSina" = "sina 마이크로 블로그 공유";
+"shareToTX" = "tencent 마이크로 블로그 공유";
+"isSendBro" = "게시 발표를 확정";
+"contentNil" = "문자 메시지가 없습니다";
+"oneImage" = "사진이 필요합니다";
+
+"releaseSuccess" = "게시물이 제출되였습니다 심사 중!";
+
+"isAgreeNotice" = "하프 피트 사용자 협의를 동의한다는";
+"aStr" = "사용자 협의에 동의";
+"bStr" = "하프 피트 사용자 협의";
+"seqingNotice" = "포르노와 유해한 정보를 전송 한 자는 신고되여 확인되면 휴대폰은 금지되고 하프 피트 ID를 등록하거나 로그인 할 수 없습니다";
+
+
+
+//涂鸦页面
+//BanBu_GraffitiController
+"brushSize" = "사이즈:";
+"emptySheet" = "현재 낙서를 삭제 하시겠습니까?";
+"sendSheet" = "현재 낙서를 전송하시겠습니까?";
+"sendAndSaveImage" = "전송하고 앨범에 저장합니다";
+"onlySendImage" = "만 전송";
+"changeBackImage" = "배경 바꾸기?";
+
+/**********************************************/
+//抛绣球
+/**********************************************/
+
+//BanBu_SelectController,抛绣球的选择页面
+"placeLabel" = "One place";
+"moodLabel" = "A diary";
+"fateLabel" = "A fate";
+"throwOneLabel" = "Throw one";
+"myBallLabel" = "My ball";
+//BanBu_SelectPlaceController
+"selectPlaceTitle" = "Target location";
+"setCityLabel" = "Set city";
+"setPlaceLabel" = "Place name";
+"hotPlaces" = "Hot places";
+"cityplaceNil" = "City or place name shall not be empty";
+"placeNULL" = "This place does not exist";
+"huntNotice" = "Searching...";
+//BanBu_ThrowBallController
+"throwBallTitle" = "Throw ball";
+"editAlert" = "Whether to give up the edited content";
+"sayBall" = "Wrap your feelings in the ball";
+"emptyToolItem" = "Empty";
+"finishToolItem" = "Finished";
+"funLabel"= "Camera";
+"funLabel1"= "Album";
+"funLabel2"= "Voice";
+"funLabel3"= "Doodle";
+"funLabel4"= "Location";
+"selectOneway" = "Tip: content of each ball could only contain one of text, photos, album, voice, graffiti and my location.";
+"throwNow"= "Throw right now";
+"editActionSheet" = "Whether to cover the edited content";
+"wordNilNotice" = "No text ";
+"throwAlert" = "Whether to throw ball";
+"throwSuccess" = "Successful in throwing ball!";
+
+//BanBu_MyBallsController
+"myBallTitle" = "My ball";
+/**********************************************/
+
+
+//对话
+/**********************************************/
+"mySay" = "[나]";
+"talkPicture" = "[사진]";
+"talkLocation" = "[장소]";
+"talkSound" = "[음성]";
+//BanBu_MakeBigMapViewController
+"makebigTitle" = "위치 상세정보";
+/**********************************************/
+//友情提示UIView
+"helpfulTitle" = "주의";
+"warningLabel" = "야한 언어,ONS,희롱 등 행동을 한 경우,신고되고 검증되면 휴대폰은 봉인될것이다.금지될 경우 더 이상 등록 또는 임의의 하프 피트 login 수 없습니다。";
+"infoLabel" = "특히 악질적 인 경우에는 경찰에 신고합니다 ";
+"chat_btn" = "이해했습니다";
+"sendLocation" = "현재 위치를 ​전송";
+"seeMoreMessage" = "더 많은 채팅보기";
+
+/*************************/
+"copyButton" = "복사";
+"shareButton" = "공유";
+
+"opera" = "작업";
+"deleteMes" = "채팅 내역 삭제";
+"forward" = "전송";
+"retransmission" = "재전송";
+"confomForward" = "다시 보내시겠습니까 ? ";
+"confirmDelete" = "메세지의 삭제를 하시겠습니까?";
+"newsState" = " 도착 ";
+"newsState1" = " 읽음 ";
+"newsState2" = " 읽지 않음 ";
+"newsState3" = " 전송 중 ";
+"newsState4" = " 실패 ";
+
+"errcode_fail" = "셰어웨어 장애";
+"errcode_cancel" = "취소";
+"shareSuccess" = "공유 했다";
+"comefromIceBreak" = "토크 헬퍼";
+"comefromtuya" = "낙서부터";
+
+"noticeNotLog" = "로그인하십시오 !";
+"flagTitle" = "기호";
+"smileTitle" = "표정";
+"addBtn" = "추가";
+"locationBtn" = "위치";
+"holdtotalk" = "누른 채 말하기";
+"kongAlert" = "빈 메시지는 보낼 수 없습니다";
+
+/***************************/
+//表情文字
+"smileItem" = "ﾓﾝｽﾀgggw";
+"smileItem1" = "도로";
+"smileItem2" = "다양";
+"smileItem3" = "비웠다";
+"smileItem4" = "행복";
+"smileItem5" = "노래 스타";
+"smileItem6" = "키모와루이";
+"smileItem7" = "화이팅";
+"smileItem8" = "놀라움";
+"smileItem9" = "귀엽다";
+"smileItem10" = "유감";
+"smileItem11" = "춤추다";
+"smileItem12" = "마이크스타";
+"smileItem13" = "화내다";
+"smileItem14" = "애인";
+"smileItem15" = "도와줘";
+"smileItem16" = "어리광";
+"smileItem17" = "자다";
+"smileItem18" = "멋있다";
+"smileItem19" = "아픔";
+"smileItem20" = "부끄럽다";
+"smileItem21" = "압력";
+"smileItem22" = "음모";
+"smileItem23" = "깜박임";
+"smileItem24" = "돈";
+"smileItem25" = "이상한";
+"smileItem26" = "폭팔";
+"smileItem27" = "지루한";
+"smileItem28" = "쇼";
+"smileItem29" = "리드";
+"smileItem30" = "트위스트";
+"smileItem31" = "댄스";
+"smileItem32" = "자랑스러운";
+"smileItem33" = "운동";
+"smileItem34" = "구조";
+"smileItem35" = "떨어져";
+"smileItem36" = "스타일";
+"smileItem37" = " 이동 ";
+"resend"="다시보내기";
+
+/*****************破冰语*********************/
+
+//BanBu_SearchIceViewController
+"searchIce" = "토크 헬퍼";
+"searchTextField" = "  키워드를 입력 할 수 있습니다";
+"searchIceBtn" = "검색";
+"tuijianLabel" = "핫 키워드";
+"searchkey" = "검색 -";
+
+"ice_actionSheetButtionTitle" = "즉시 전송";
+"ice_actionSheetButtionTitle1" = "weichat 친구에게 공유하기";
+"ice_actionSheetButtionTitle2" = "weichat 모멘트에 공유하기";
+
+//BanBu_IceBreakerController
+"ice_textTitle" = "문자 인사말";
+//BanBu_IceBreaker_Voice
+"ice_voiceTitle" = "음성 인사말";
+//BanBu_icePicController
+"ice_picTitle" = "사진 인사말";
+
+"scanPic" = "브라우즈 사진";
+
+//好友圈
+/**********************************************/
+//BanBu_MyFriendViewController
+"friendTitle" = "친구 써클";
+"fItem" = "거리";
+"fItem1" = "마지막 로그인 시간";
+"fItem2" = "팔로우 시간 순";
+"summary_g" = "팔로우";
+"summary_f" = "팬";
+"summary_h" = "친구";
+"friendNoticeLabel" = "아직 ​​친구를 팔로우하지 않았습니다 주변사람을 팔로우합시다!";
+"friendNoticeLabel1" = "팬이 없습니다 바로 팬이 됩시다!";
+"friendNoticeLabel2" = "친구가 없습니다 주위의 친구를 찾읍시다!";
+//BanBu_AddNewFriendViewController
+"andNewFriendTitle" = "친구로 추가";
+"searchBtn" = "검색";
+"zibarBtn" = "스캔 2 차원 코드";
+"headerAndholder" = "  Email, Halfeet ID를 입력하십시오";
+"nilNotice" = "비워 둘 수 없습니다";
+"selfNotice" = "아, 본인입니다!!!";
+"searchNotice" = "찾고 있는중......";
+"emailError" = "올바른 메일이 아닙니다";
+"resquesting" = "마지막 요청을 로드 중 ...";
+"readerTitle" = "스캔하여 친구 추가";
+/**********************************************/
+
+//我的空间
+/**********************************************/
+
+//BanBu_MySpaceViewController
+"myApp" = "  어플리케이션";
+"myCenter" = "  홈";
+"myinfoLabel" = "프로필";
+"systemLabel" = "설정";
+"dymaicLabel" = "최근 업데이트";
+"visitorLabel" = "방문 기록";
+"helperLabel" = "도움말";
+//个人资料
+/**********************************************/
+//BanBu_MyProfileViewController
+"editAvatar" = "아바타 편집";
+"profileSection" = "  기본 정보";
+"profileSection1" = "  프로필";
+"profileSection2" = "  관련 ID";
+"profileSection3" = "  계정";
+
+"weiboBing" = "연결";
+"weiboUnBing" = "미 관련";
+"reBinding" = "UnConnect";
+"sinaSheetTitle" = "sina weibo";
+"TXSheetTitle" = "Tencent 마이크로 블로그";
+"updateAvatarSuccess" = "업데이트에 성공한  아바타";
+"reBindingSuccess" = "관련 해제를 성공";
+"updateInfo" = "업데이트 데이터 ...";
+"updateAvatar" = "업데이트 아바타 ...";
+
+"bangdingSina" = "Sina를 관련";
+"bangdingTX" = "Tencent를 관련";
+
+//太特别
+"changeInfo" = "당신이 % @ 수정하여 저장하시겠습니까?";
+// 0 section
+
+"s0c0" = "하프 피트 ID";
+"s0c1" = "2 차원 코드 명함";
+"s0c2" = "지금의 기분";
+"s0c2DefaluteValue" = "서명한 주변에는 사람들이 자신의 상황을 알고있습니다";
+
+//1 section
+
+"s1c0" = "키 (cm)";
+"s1c1" = "혈액형";
+"s1c2" = "체중 (kg)";
+
+//2 section
+"s2c0" = "취미";
+"s2c0DefaluteValue" = "내 관심";
+"s2c1" = "잘 노는 곳";
+"s2c1DefaluteValue" = "자주 출몰하는 장소인가";
+"s2c2" = "회사 명";
+"s2c2DefaluteValue" = "현재에 이르기까지 어떤 직장에 근무하였습니까?";
+"s2c3" = "직업";
+"s2c3DefaluteValue" = "직업의 종류";
+"s2c4" = "학교";
+"s2c4DefaluteValue" = "あなたは今までどの学校に在籍したことがあります";
+
+
+//3 section
+
+"s3c0" = "sina 마이크로 블로그";
+"s3c1" = "Tencent 마이크로 블로그";
+
+//编辑头像
+/**********************************************/
+//BanBu_PhotoManager
+"addPhoto" = "사진 추가";
+"changePhoto" = "삭제 또한 대체";
+"deletePhoto" = "사진 삭제";
+"mustOneImage" = "최소  사진 한장을 보류하십시오";
+
+
+//职业页面
+//BanBu_WorkViewController
+"workTitle" = "직업";
+"workNil" = "직업은 비워 둘 수 없습니다";
+"workBelong" = "  업계";
+"workItem" = "컴퓨터 / 인터넷 / 통신";
+"workItem1" = "생산 / 공정 / 제조";
+"workItem2" = "비즈니스 / 호스 피탈 리티/ 제조";
+"workItem3" = "금융 / 은행 / 투자 / 보험";
+"workItem4" = "문화 / 광고 / 미디어";
+"workItem5" = "엔터테인먼트 / 예술 / 공연";
+"workItem6" = "의료 / 간호 / 의약품";
+"workItem7" = "변호사 / 법무";
+"workItem8" = "교육 / 피트니스";
+"workItem9" = "공무원 / 공공 기관 ";
+"workItem10" = "학생";
+//二维码名片页面
+//BanBu_ZibarController
+
+"zibarTitle" = "2 차원 코드 명함";
+"banbuNum" = "하프 피트 ID:";
+"descripLabel" = "사진을 스캔 하프 피트 ID 추가";
+/**********************************************/
+//系统设置
+/**********************************************/
+//BanBu_SettingViewController
+"settingTitle" = "시스템 설정";
+"exitBtn" = "완료";
+"messageMan" = "뉴스 관리";
+
+"userNameMan" = "Account management";
+"stealthLabel" = "Invisible mode";
+"soundSwitch" = "Sound";
+"newmsgNotice" = "News alert";
+"soundType" = "Tone type";
+//"stealthDetailLabel" = "";
+
+"locationLabel" = "Location-based services";
+"remindLabel" = "Alert settings";
+"muteLabel" = "Silence period";
+
+//"muteDetailLabel" = "";
+
+"PWSettingLabel" = "Password setting";
+"blackLabel" = "계정 관리";
+"feedBackLabel" = "피드백";
+"commendForBanbu" = " 하프 피트 리뷰에";
+"userHelpr" = "사용자 도움말";
+
+//BanBu_BlacklistViewController
+
+"blackTitle" = "블랙리스트";
+"unlockButton" = "해제";
+
+//BanBu_ChangePWViewController
+
+"changePWTitle" = "암호 변경";
+"errorMsg6" = "원래 암호를 입력하십시오";
+"errorMsg7" = "새 암호를 입력하십시오";
+"changePWNotice" = "변경 중 .....";
+"changeOK" = "암호 설정이 성공";
+"oldPWLabel" = "이전 암호";
+"inputOldPW" = "이전 암호를 입력하십시오";
+"newPWLabel" = "새 암호";
+"conPWLabel" = "암호 입력";
+
+/**********************************************/
+//动态一览
+/**********************************************/
+//BanBu_DynamicController
+"dynamicTitle" = "Timeline";
+"displayVisitRecord" = "Visitors";
+"displayFriendNews" = "Timeline";
+"friendNewsNoticeLabel" = "No timeline of friends, as you have not added any friends!";
+"visitRecordNoticeLabel" = "No one visit you, release new post right now!";
+/**********************************************/
+//帮助
+//BanBu_HelpViewController
+"helpTitle" = "최근 업데이트";
+"descripLabel" = "하프 피트는 주변사람과 편하게 만나 알아가기 위한 휴대폰 전용 앱이다.가까운 지리적 위치에 따라 음성, SMS, 비디오, 사진 및 텍스트를 주변사람에개 보낼 수 있습니다";
+"tipsLabel" = "1) dialogue with people in the vicinity, \n2) add a friend \n3) Friends Circle updates, browse friends dynamic";
+/**********************************************/
+//我的应用
+"trainTitle" = "북경 지하철";
+
+
+/***********新版broadcast*********/
+"pictureAndVoiceTitle" = "사진과 음성";
+"addAPhoto" = "\n첫 번째 사진 추가\n\n";
+"timeshortNoticte" = "긴 녹음 버튼을 눌러주세요";
+
+"textAndTagsTitle" = "텍스트 및 태그";
+"textDescription" = "텍스트 문서를 입력하십시오";
+"share_broadcast" = "공유:";
+"bindNow" = "지금 연결";
+"voiceOrTextNotice" = " 최소 1 개의 녹음 또는 텍스트가 필요합니다";
+
+"commentcount1" = "클릭";
+"commentcount2" = "댓글보기";
+
+"tagTextfield" = "라벨";
+"tagTextPlaceholder" = "태그를 입력하고 공백으로 구분되어 있습니다";
+"writeSomething" = "현재 입력하고 있는 중 ...";
+
+"km500" = "500 ㎞이내에서 검색";
+"km2000" = "2000 ㎞이내에서 검색";
+
+
+// 我的设置里面的
+"longVoice" = "누르고 음성댓글";
+"zan_failed" = "이미 제출";
+"zan_success" = "제출 성공";
+
+"notific"="알림";
+
+"notificChat"="채팅 알림";
+
+"notificFriend"="최근 업데이트 알림";
+
+"jiaweihaoyou" = "대화";
+"kaishiduihua" = "팔로우";
+
+
+"requestFrom"="친구 요청을 받았습니다. 채팅 시작하기 ! ";
+
+"moreTitle" = "많은";
+
+"sexSelect" = "성별";
+"timeSelect" = "마지막 온라인";
+"selectTitle" = "필터 설정";
+
+
+//BanBu_ToseeGifViewController
+
+//"tuyaEdit" = "Save the doodle";
+"tuyaEdit" = "낙서 저장";
+
+"tuyaReply" = "낙서 답글";
+"continueEdit" = "수정으로 돌아 가기";
+"saveToAlum" = "앨범에 저장";
+
+/********************/
+//注册和修改资料的分享
+"reginShare" = "하프 피트 (www.halfeet.com)를 등록.  하프 피트는 주위사람과 채팅 할 수있는 앱입니다.";
+"photoShare" = "하프 피트 (www.halfeet.com)를 등록. 새로운 사진을 업로드했습니다.";
+"followShare" = "하프 피트 (www.halfeet.com)에서 % @를 팔로우했습니다";
+
+

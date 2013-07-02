@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户登录、注册接口_半步网接口开发说明文档</title>
+<style>
+body{line-height:22px;}
+a{color:#06F;text-decoration:none;}
+.smalltitle{color:#00F}
+</style>
+</head>
+
+<body>
+<table width="950" border="0" align="center" cellpadding="5" cellspacing="0">
+  <tr>
+    <td height="32" align="center"><strong><a href="interface.html">半步网接口开发说明文档</a></strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCCCCC">//检验邮箱是否可用（<span class="smalltitle">推荐</span>）</td>
+  </tr>
+  <tr>
+    <td><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_user_login/_test_email_register.php?jsonfrom=</span><br />
+      <em><strong>参数　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">test_email_register</span>&quot;,&quot;email&quot;:&quot;abcd123456@163.com&quot;}<br />
+      <em><strong>返回　</strong></em>{&quot;ok&quot;:&quot;y&quot;}<br />
+      <br />
+      email值为用户邮箱<br />
+      ok值为y表示测试通过可注册，值为n表示邮箱已被注册</td>
+  </tr>
+  <tr>
+    <td bgcolor="#666666">//检验邮箱是否可用</td>
+  </tr>
+  <tr>
+    <td bgcolor="#666666"><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_user_login/_check_email_exist.php?jsonfrom=</span><br>
+      <em><strong>参数　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">check_email_exist</span>&quot;,&quot;email&quot;:&quot;abcd123456@163.com&quot;}<br>
+      <em><strong>返回　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">check_email_exist</span>&quot;,&quot;email&quot;:&quot;abcd123456@163.com&quot;,&quot;exist&quot;:&quot;n&quot;}<br />
+      <br>
+      email值为用户邮箱<br>
+    exist值为n表示检查邮箱不存在，值为y表示检查邮箱已存在<br></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//注册邮箱</td>
+  </tr>
+  <tr>
+    <td><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_user_login/_register_email.php?jsonfrom=</span><br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">register_email</span>&quot;,&quot;email&quot;:&quot;www@gmail.com&quot;,&quot;pass&quot;:&quot;123456&quot;,&quot;plong&quot;:&quot;113199203&quot;,&quot;plat&quot;:&quot;23633104&quot;}<br />
+      <em><strong>返回</strong></em>　{&quot;ok&quot;:&quot;y&quot;,&quot;loginid&quot;:&quot;20120707205138-BBA7CD0A-6BCA-B760-3C69-7A1AC10B522A&quot;}<br />
+      <br />      email值为用户邮箱<br />
+      pass值为密码<br />
+      long值为经度，lat为纬度
+      <br />
+regok值为y表示注册成功，值为n表示注册不成功<br />
+loginid值为注册成功时返回的唯一标识id，供后期调用时向服务器端提交此值<br />
+serveron值为分配的服务器，部分接口功能需发送请求到该返回值指定的服务器<br />
+<em class="smalltitle">*本接口调用时，已同时完成登录并取得登录id</em></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//用户登录校验</td>
+  </tr>
+  <tr>
+    <td><strong><em>网址</em></strong>　<span class="smalltitle">http://www.halfeet.com/_user_login/_check_user_login.php?jsonfrom=</span><br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">check_user_login</span>&quot;,&quot;email&quot;:&quot;abcd123456@gmail.com&quot;,&quot;pass&quot;:&quot;123456&quot;,&quot;plong&quot;:&quot;118113314&quot;,&quot;plat&quot;:&quot;40019923&quot;}<br />
+      <em><strong>返回　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">check_user_login</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;loginid&quot;:&quot;20120707212149-3E4227CB-2D3E-A6D5-A656-BA755B231D71&quot;} <br />
+      <br />
+    email值为用户邮箱，pass值为用户密码<br />
+    long值为经度, lat值为纬度<br />
+    logok值为y表示登录成功，值为n表示登录失败<br />
+    loginid值为登录ID，供后期调用时向服务器端提交此值<br />
+    serveron值为分配的服务器，部分接口功能需发送请求到该返回值指定的服务器</td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//用户个人资料设置</td>
+  </tr>
+  <tr>
+    <td height="32"><strong><em>网址</em></strong>　<span class="smalltitle">http://www.halfeet.com/_user_login/_set_user_infor.php?jsonfrom=</span><br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">set_user_infor</span>&quot;,&quot;loginid&quot;:&quot;20120707214443-3D452900-E671-8229-BF4B-B002C58A59A8&quot;,&quot;pname&quot;:&quot;老张&quot;,&quot;gender&quot;:&quot;m&quot;,&quot;borndate&quot;:&quot;1990-01-01&quot;,&quot;blood&quot;:&quot;a&quot;,&quot;body&quot;:&quot;c&quot;}<br />
+      <em><strong>返回</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">set_user_infor</span>&quot;,&quot;ok&quot;:&quot;y&quot;} <br />
+      <br />
+      loginid值为登录ID<br />
+      pname值为昵称，gender值为性别，m表示男性/f表示女性<br />
+      borndate值为出生日期，blood值为血型，A/B/O/C/X，字母C表示AB型，X表未知<br />
+      body值为身高，为区间值，显示为160以下/160-165/165-170/170-175/175以上，分别用字母a,b,c,d,e表示<br />
+      ok值为y表示设置成功，值为n表示设置失败</td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//用户个人资料及头像列表读取<a name="get_user_infor" id="get_user_infor"></a></td>
+  </tr>
+  <tr>
+    <td height="32"><p><strong><em>网址　</em></strong><span class="smalltitle">http://www.halfeet.com/_user_login/_get_user_infor.php?jsonfrom=</span><br />
+        <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_user_infor</span>&quot;,&quot;loginid&quot;:&quot;20120707221438-28D8AD6E-569E-677F-2385-6DBCD987FF31&quot;,&quot;email&quot;:&quot;&quot;,&quot;userid&quot;:&quot;1114&quot;,&quot;format&quot;:&quot;n&quot;}<br />
+        <em><strong>返回　</strong></em> {&quot;fc&quot;:&quot;<span class="smalltitle">get_user_info</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;pname&quot;:&quot;大哥大&quot;,&quot;gender&quot;:&quot;m&quot;,&quot;borndate&quot;:&quot;1987-01-01&quot;,&quot;yearsold&quot;:&quot;25岁&quot;,&quot;distance&quot;:&quot;距离:0米 28分钟前&quot;,&quot;sstar&quot;:&quot;双鱼座&quot;,&quot;zodiac&quot;:&quot;猴&quot;,&quot;sayme&quot;:&quot;不要为那些不愿在你身上花费时间的人而浪费你的时间&quot;,&quot;hbody&quot;:&quot;170-175cm&quot;,&quot;xblood&quot;:&quot;未知&quot;,&quot;userid&quot;:&quot;1114&quot;,&quot;linkkind&quot;:&quot;陌生人&quot;,&quot;liked&quot;:&quot;&quot;,&quot;company&quot;:&quot;&quot;,&quot;jobtitle&quot;:&quot;&quot;,&quot;school&quot;:&quot;&quot;,&quot;lovego&quot;:&quot;&quot;,&quot;facelist&quot;:[]}<br />
+        <br />
+        email值为用户唯一邮箱，userid值为用户ID，且优先使用<br />
+format值为返回格式，y表示返回高级模式，数据包内含有输出格式的定义, n表示仅返回简单json数据<br />
+<br />
+        pname值为昵称，gender值为性别，m表示男性/f表示女性<br />
+        borndate值为出生日期，yearsold值为年龄<br />
+        xblood值为血型，A/B/O/C/X，字母C表示AB型，X表未知<br /> 
+        hbody值为身高，sayme值为个人签名<br />
+        sstar值为星座，zodiac值为生肖<br />
+        linkkind值为当前请求的查询人与被查询人的关系<br />
+company值为所在公司，jobtitle值为行业和职位<br /> 
+school值为当前/最后毕业学校，lovego值为常去的地方<br /> 
+facelist值为头像列表，多张图，含完整路径<br />
+<br />
+ok值为y表示读取成功，值为n表示读取失败</p></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//提交用户个人照片表单上传版 <span style='color:red'>以post形式提交表单，&lt;form method=&quot;post&quot; enctype=&quot;multipart/form-data&quot;&gt;</span></td>
+  </tr>
+  <tr>
+    <td height="32"><strong><em>网址　</em></strong><span class="smalltitle">http://www.halfeet.com/_user_login/_upfile_user_face.php?phone=y&amp;loginid=</span>xxxxxxx&amp;photofile=xxxxxxx<br />
+      <em><strong>参数</strong></em>　<br />
+      <em><strong>返回　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">upfile_user_face</span>&quot;,&quot;ok&quot;:&quot;y&quot;} <br />
+      <br />
+      loginid值为登录ID<br />
+      phone值为y表示来自手机客户端<br />
+      photofile值为上传的文件<br />
+      <br />
+      ok值为y表示设置成功，值为n表示设置失败<br />
+    <span class="smalltitle">*头像为高宽相等的正方形，限200K以内，超200K则保持高宽比例缩小到200K以内</span></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//提交用户个人照片BASE64版 <span style='color:red'>以post形式提交，文件先经base64编码</span></td>
+  </tr>
+  <tr>
+    <td height="32"><strong><em>网址　</em></strong><span class="smalltitle">http://www.halfeet.com/_user_login/_base64_user_face.php?phone=y&amp;loginid=</span>xxxxxxx&amp;photofile=xxxxxxx<br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">base64_user_face</span>&quot;,&quot;loginid&quot;:&quot;20120707221438-28D8AD6E-569E-677F-2385-6DBCD987FF31&quot;,&quot;phone&quot;:&quot;y&quot;,&quot;picformat&quot;:&quot;jpg&quot;,&quot;photofile&quot;:&quot;eyJmYyI6InNldF91c2VyX2xvY2F0aW9uIiwibG9naW5pZCI6IjIw&quot;}<br />
+      <em><strong>返回　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">base64_user_face</span>&quot;,&quot;ok&quot;:&quot;y&quot;} <br />
+      <br />
+      loginid值为登录ID<br />
+      phone值为y表示来自手机客户端<br />
+      picformat值为jpg或png，表示文件格式，及扩展名<br />
+      photofile值为经过base64编码后的文件<br />
+      <br />
+      ok值为y表示设置成功，值为n表示设置失败<br />
+      <span class="smalltitle">*头像为高宽相等的正方形，限10k-200K，超200K则保持高宽比例缩小到200K以内</span></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//读取用户头像照片列表</td>
+  </tr>
+  <tr>
+    <td><strong><em>网址　</em></strong><span class="smalltitle">http://www.halfeet.com/_user_login/_get_user_facelist.php?jsonfrom=</span><br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_user_facelist</span>&quot;,&quot;loginid&quot;:&quot;120627-222910-CADFE28F-5317-5BCE-932B-D8544AC1E33A&quot;,&quot;email&quot;:&quot;abc6@gmail.com&quot;,&quot;userid&quot;:&quot;1116&quot;}<br />
+      <em><strong>返回　</strong></em> {&quot;fc&quot;:&quot;<span class="smalltitle">get_user_facelist</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;list&quot;:[]} <br />
+      <br />
+loginid值为登录ID<br />email值为用户邮箱<br />
+userid值为用户ID，优先email参数<br />
+<br />
+list值为头像文件地址列表，以逗号分隔<br />
+ok值为y表示读取成功，值为n表示读取失败</td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//删除用户头像照片</td>
+  </tr>
+  <tr>
+    <td><strong><em>网址　</em></strong><span class="smalltitle">http://www.halfeet.com/_user_login/_del_user_face.php?jsonfrom=</span><br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">del_user_face</span>&quot;,&quot;loginid&quot;:&quot;120627-222910-CADFE28F-5317-5BCE-932B-D8544AC1E33A&quot;,&quot;faceid&quot;:&quot;120810-122224-425346-SFGDS&quot;}<br />
+      <em><strong>返回　</strong></em> {&quot;fc&quot;:&quot;<span class="smalltitle">del_user_face</span>&quot;,&quot;ok&quot;:&quot;y&quot;} <br />
+      <br />
+      loginid值为登录ID<br />
+      faceid值为照片的ID<br />
+      <br />
+ok值为y表示操作成功，值为n表示操作失败</td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//读取自已的个人资料</td>
+  </tr>
+  <tr>
+    <td><strong><em>网址　</em></strong><span class="smalltitle">http://www.halfeet.com/_user_login/_get_my_infor.php?jsonfrom=</span><br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_my_infor</span>&quot;,&quot;loginid&quot;:&quot;120627-222910-CADFE28F-5317-5BCE-932B-D8544AC1E33A&quot;}<br />
+      <em><strong>返回　</strong></em> {&quot;fc&quot;:&quot;<span class="smalltitle">get_my_infor</span>&quot;,&quot;ok&quot;:&quot;y&quot;, 同<span class="smalltitle"><a href="#get_user_infor">#get_user_infor</a></span>接口} <br />
+      <br />
+      loginid值为登录ID<br />
+      <br />
+      返回值同<span class="smalltitle"><a href="#get_user_infor">#get_user_infor</a></span>接口<br />
+    ok值为y表示操作成功，值为n表示操作失败</td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//修改自已的个人资料之扩展资料</td>
+  </tr>
+  <tr>
+    <td><strong><em>网址　</em></strong><span class="smalltitle">http://www.halfeet.com/_user_login/_set_my_expandext.php?jsonfrom=</span><br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">set_my_expandext</span>&quot;,&quot;loginid&quot;:&quot;120817-162520-EE7FA084-1DDA-D5F9-2D05-BADCA28FD0BA&quot;,&quot;liked&quot;:&quot;乒乓球&quot;,&quot;company&quot;:&quot;半步科技&quot;,&quot;jobtitle&quot;:&quot;职员&quot;,&quot;school&quot;:&quot;某某大学&quot;,&quot;lovego&quot;:&quot;北京 上海&quot;}<br />
+      <em><strong>返回　</strong></em> {&quot;fc&quot;:&quot;<span class="smalltitle">set_my_expandext</span>&quot;,&quot;ok&quot;:&quot;y&quot;}<br />
+      <br />
+      loginid值为登录ID<br />
+      liked值为爱好和兴趣<br />
+      company值为就职公司 jobtitle值为职位<br />
+      school值为毕业学校<br />
+      lovego值为常(爱)去的地方<br />
+      <br />
+      ok值为y表示操作成功，值为n表示操作失败</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFCC00">//******用户登录、注册接口*****</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="index.html">返回首页</a></td>
+  </tr>
+</table>
+</body>
+</html>

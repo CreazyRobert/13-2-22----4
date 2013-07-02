@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户聊天接口_半步网接口开发说明文档</title>
+<style>
+body{line-height:22px;}
+a{color:#06F;text-decoration:none;}
+.smalltitle{color:#00F}
+</style>
+</head>
+
+<body>
+<table width="950" border="0" align="center" cellpadding="5" cellspacing="0">
+  <tr>
+    <td height="32" align="center"><strong><a href="interface.html">半步网接口开发说明文档</a></strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//发送一条文本消息至指定用户</td>
+  </tr>
+  <tr>
+    <td><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_applicaton/_set_shakeball.php?jsonfrom=</span><br>
+      <em><strong>参数　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">set_shakeball</span>&quot;,&quot;loginid&quot;:&quot;120719-16513E42&quot;,&quot;plong&quot;:&quot;118331400,&quot;plat&quot;:&quot;40199230&quot;,&quot;says&quot;:&quot;大家好，我是新来的&quot;}<br>
+      <em><strong>返回　</strong></em>{&quot;ok&quot;:&quot;y&quot;}<br />
+      <br>
+      loginid值为用户登录id<br />
+      plong，plat值为投递目标地址的经纬度<br />
+      says值为对话内容，需经base64编码<br /><span style="color:#999">例 {&quot;type&quot;:&quot;text&quot;,&quot;content&quot;:&quot;hello, 我是冠军&quot;}<br />
+      </span>-&gt; type值为信息类型，text/image/sound<br />
+      -&gt; content值为信息正文<br />
+      <br>
+    ok值为n表示发送失败，值为y表示发送成功</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFCC00">//******用户对话接口*****</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="index.html">返回首页</a></td>
+  </tr>
+</table>
+</body>
+</html>

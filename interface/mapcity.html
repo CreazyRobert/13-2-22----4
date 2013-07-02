@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>附近的人接口_半步网接口开发说明文档</title>
+<style>
+body{line-height:22px;}
+a{color:#06F;text-decoration:none;}
+.smalltitle{color:#00F}
+</style>
+</head>
+
+<body>
+<table width="950" border="0" align="center" cellpadding="5" cellspacing="0">
+  <tr>
+    <td height="32" align="center"><strong><a href="interface.html">半步网接口开发说明文档</a></strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//根据省，县/区关键字检索，返回地址列表</td>
+  </tr>
+  <tr>
+    <td><p><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_map_city/_get_addresslist_bykey.php?jsonfrom=</span><br />
+        <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_addresslist_bykey</span>&quot;,&quot;loginid&quot;:&quot;120730-175005-0A12DFC6-E43D-43F3-EC96-3C756AC2E085&quot;,&quot;province&quot;:&quot;北京&quot;,&quot;town&quot;:&quot;朝阳区&quot;,&quot;keyname&quot;:&quot;地铁&quot;}<br />
+        <em><strong>返回</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_addresslist_bykey</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;list&quot;:[{&quot;mapid&quot;:&quot;775889&quot;,&quot;city&quot;:&quot;北京市&quot;,&quot;town&quot;:&quot;朝阳区&quot;,&quot;name&quot;:&quot;城建地铁地基市政工程公司&quot;,&quot;plong&quot;:&quot;116576393&quot;,&quot;plat&quot;:&quot;39956396&quot;},{&quot;mapid&quot;:&quot;778059&quot;,&quot;city&quot;:&quot;北京市&quot;,&quot;town&quot;:&quot;石景山区&quot;,&quot;name&quot;:&quot;地铁古城家园&quot;,&quot;plong&quot;:&quot;116187761&quot;,&quot;plat&quot;:&quot;39916783&quot;}],&quot;townlist&quot;:[{&quot;town&quot;:&quot;东城区&quot;,&quot;count&quot;:&quot;14&quot;},{&quot;town&quot;:&quot;丰台区&quot;,&quot;count&quot;:&quot;20&quot;},{&quot;town&quot;:&quot;大兴区&quot;,&quot;count&quot;:&quot;1&quot;}]} <br />
+      <br />
+      loginid值为登录成功时返回的唯一标识<br />
+      province值为省份名称（直辖市的省和市同名，比北京市是直辖市，下面只有一个市，即北京市，再下面是县和区）<br />
+        town值为县和区的名称， <span style="color:red">若不指定town值，表示搜索整个省份内/直辖市，限返回20条，若指定town值，则不限返回的数量</span><br />
+keyname值为关键字，比如&quot;王府井&quot;，&quot;地铁站&quot;, &quot;中行&quot;<br />
+<br />
+ok值为y表示返回成功，值为n表示返回不成功<br />
+        list值为嵌套数据<br />
+        -&gt; mapid值为地理名称的ID <br />
+        -&gt; city值为地理名称所在城市<br />
+        -&gt; town值为地理名称所在县/区<br />
+-&gt; name是pointname缩写，值为地理名称的全称<br />
+        -&gt; plong是poslong缩写，值为地理坐标经度<br />      
+      -&gt; plat是poslat缩写，值为地理坐标纬度<br />
+townlist值为嵌套数据<br />
+-&gt; town值为县/区的名称<br />
+-&gt; count值为符合条件的数据</p></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//根据坐标点和关键字检索，返回地址列表</td>
+  </tr>
+  <tr>
+    <td><p><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_map_city/_get_addresslist_key_pos.php?jsonfrom=</span><br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_addresslist_key_pos</span>&quot;,&quot;loginid&quot;:&quot;120730-175005-0A12DFC6-E43D-43F3-EC96-3C756AC2E085&quot;,&quot;plong&quot;:&quot;116429194&quot;,&quot;plat&quot;:&quot;39931240&quot;,&quot;keyname&quot;:&quot;地铁&quot;}<br />
+      <em><strong>返回</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_addresslist_key_pos</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;list&quot;:[]}<br />
+      <br />
+      loginid值为登录成功时返回的唯一标识<br />
+      plong值为纬度值<br />
+      plat值为经度值<span style="color:red"></span><br />
+      keyname值为关键字，比如&quot;王府井&quot;，&quot;地铁站&quot;, &quot;中行&quot;<br />
+      <br />
+      ok值为y表示返回成功，值为n表示返回不成功<br />
+      list值为嵌套数据<br />
+      -&gt; mapid值为地理名称的ID <br />
+      -&gt; city值为地理名称所在城市<br />
+      -&gt; town值为地理名称所在县/区<br />
+      -&gt; name是pointname缩写，值为地理名称的全称<br />
+      -&gt; plong是poslong缩写，值为地理坐标经度<br />
+      -&gt; plat是poslat缩写，值为地理坐标纬度</p></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//根据坐标点，返回东南西北四个方向的地址名称</td>
+  </tr>
+  <tr>
+    <td><p><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_map_city/_get_addressname_bydirect.php?jsonfrom=</span><br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_addressname_bydirect</span>&quot;,&quot;loginid&quot;:&quot;20120627201459-FB6B7994-F5FB-E1F6-5AD4-7FD9F2A1A0DA&quot;,&quot;plong&quot;:&quot;116422118&quot;,&quot;plat&quot;:&quot;39857671&quot;}<br />
+      <em><strong>返回</strong></em>　  {&quot;fc&quot;:&quot;<span class="smalltitle">get_addressname_bydirect</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;east&quot;:{&quot;plong&quot;:&quot;116439289&quot;,&quot;plat&quot;:&quot;39863610&quot;,&quot;name&quot;:&quot;河间人正宗驴肉馆&quot;},&quot;south&quot;:{&quot;plong&quot;:&quot;116416878&quot;,&quot;plat&quot;:&quot;39844657&quot;,&quot;name&quot;:&quot;京点ＫＴＶ&quot;},&quot;west&quot;:{&quot;plong&quot;:&quot;116391470&quot;,&quot;plat&quot;:&quot;39865206&quot;,&quot;name&quot;:&quot;福聚德宾馆&quot;},&quot;north&quot;:{&quot;plong&quot;:&quot;116417935&quot;,&quot;plat&quot;:&quot;39879795&quot;,&quot;name&quot;:&quot;龙潭路西口&quot;}} <br />
+      <br />
+      loginid值为登录成功时返回的唯一标识<br />
+      plong值为纬度值<br />
+      plat值为经度值<span style="color:red"></span><br />
+      <br />
+      ok值为y表示返回成功，值为n表示返回不成功<br />
+      east，south，west，north值为东南西北的地理名称<br />
+      -&gt; name是pointname缩写，值为地理名称的全称<br />
+      -&gt; plong是poslong缩写，值为地理坐标经度<br />
+      -&gt; plat是poslat缩写，值为地理坐标纬度</p></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//根据城市名称，返回该城市的热点商业区</td>
+  </tr>
+  <tr>
+    <td><p><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_map_city/_get_addresshot_bycity.php?jsonfrom=</span><br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_addresshot_bycity</span>&quot;,&quot;loginid&quot;:&quot;120627-201459-FB6B7994-F5FB-E1F6-5AD4-7FD9F2A1A0DA&quot;,&quot;city&quot;:&quot;北京&quot;}<br />
+      <em><strong>返回</strong></em>　  {&quot;fc&quot;:&quot;<span class="smalltitle">get_addresshot_bycity</span>&quot;,&quot;ok&quot;:&quot;y&quot;,  &quot;list&quot;:[{&quot;pname&quot;:&quot;西直门&quot;,&quot;poslong&quot;:&quot;113264727&quot;,&quot;poslat&quot;:&quot;22834674&quot;,&quot;hots&quot;:&quot;0&quot;},{&quot;pname&quot;:&quot;王府井&quot;,&quot;poslong&quot;:&quot;113264727&quot;,&quot;poslat&quot;:&quot;22834674&quot;,&quot;hots&quot;:&quot;0&quot;}]} <br />
+      <br />
+      loginid值为登录成功时返回的唯一标识<br />
+      city值为城市完整全名<br />
+      <br />
+      ok值为y表示返回成功，值为n表示返回不成功<br />
+      list值为嵌套数据<br />
+      <span style="color:green">-&gt; pname值为地理名称的全称<br />
+      -&gt; poslong, poslat值为该坐标点的经纬度<br />
+-&gt; host值为热点值(暂时不用)</span></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//根据省，市关键字检索，返回地址列表</td>
+  </tr>
+  <tr>
+    <td><p><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_map_city/_get_addresslist_bykey_ext.php?jsonfrom=</span><br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_addresslist_bykey_ext</span>&quot;,&quot;loginid&quot;:&quot;120730-175005-0A12DFC6-E43D-43F3-EC96-3C756AC2E085&quot;,&quot;province&quot;:&quot;北京&quot;,&quot;city&quot;:&quot;北京市&quot;,&quot;keyname&quot;:&quot;地铁&quot;}<br />
+      <em><strong>返回</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_addresslist_bykey_ext</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;list&quot;:[{&quot;mapid&quot;:&quot;775889&quot;,&quot;city&quot;:&quot;北京市&quot;,&quot;town&quot;:&quot;朝阳区&quot;,&quot;name&quot;:&quot;城建地铁地基市政工程公司&quot;,&quot;plong&quot;:&quot;116576393&quot;,&quot;plat&quot;:&quot;39956396&quot;},{&quot;mapid&quot;:&quot;778059&quot;,&quot;city&quot;:&quot;北京市&quot;,&quot;town&quot;:&quot;石景山区&quot;,&quot;name&quot;:&quot;地铁古城家园&quot;,&quot;plong&quot;:&quot;116187761&quot;,&quot;plat&quot;:&quot;39916783&quot;}]} <br />
+      <br />
+      loginid值为登录成功时返回的唯一标识<br />
+      province值为省份名称（直辖市的省和市同名，比北京市是直辖市，下面只有一个市，即北京市）<br />
+      keyname值为关键字，比如&quot;王府井&quot;，&quot;地铁站&quot;, &quot;中行&quot;<br />
+      <br />
+      ok值为y表示返回成功，值为n表示返回不成功<br />
+      tlist值为嵌套数据<br />
+      -&gt; mapid值为地理名称的ID <br />
+      -&gt; city值为地理名称所在城市<br />
+      -&gt; town值为地理名称所在县/区<br />
+      -&gt; name值为地理名称的全称<br />
+      -&gt; poslong值为地理坐标经度<br />
+      -&gt; poslat值为地理坐标纬度</p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFCC00">//******地图信息接口*****</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="index.html">返回首页</a></td>
+  </tr>
+</table>
+</body>
+</html>

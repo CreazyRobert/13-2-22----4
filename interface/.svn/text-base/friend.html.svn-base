@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户聊天接口_半步网接口开发说明文档</title>
+<style>
+body{line-height:22px;}
+a{color:#06F;text-decoration:none;}
+.smalltitle{color:#00F}
+</style>
+</head>
+
+<body>
+<table width="950" border="0" align="center" cellpadding="5" cellspacing="0">
+  <tr>
+    <td height="32" align="center"><strong><a href="interface.html">半步网接口开发说明文档</a></strong></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//好友关系变更</td>
+  </tr>
+  <tr>
+    <td><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_friend/_link_user_touser.php?jsonfrom=</span><br>
+      <em><strong>参数　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">link_user_touser</span>&quot;,&quot;loginid&quot;:&quot;120627-201459-FB6B7994-F5FB-E1F6-5AD4-7FD9F2A1A0DA&quot;,&quot;linktouid&quot;:&quot;1115&quot;,&quot;action&quot;:&quot;link&quot;}<br>
+      <em><strong>返回　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">link_user_touser</span>&quot;,&quot;ok&quot;:&quot;y&quot;}<br />
+      <br>
+      loginid值为用户登录id<br />
+      linktouid值为对方用户的ID（非loginid）<br />
+      action值为设置关系，link表示加关注，unlink表示取消关注<br />
+      <br />      
+      ok值为n表示执行失败，值为y表示执行成功<br />
+      <span class="smalltitle">好友关系：n陌生人 f粉丝 g关注 h好友 m密友</span></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//所有好友的动态一览</td>
+  </tr>
+  <tr>
+    <td><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_friend/_get_friendaction_ofmy.php?jsonfrom=</span><br />
+      <em><strong>参数　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">get_friendaction_ofmy</span>&quot;,&quot;loginid&quot;:&quot;120627-201459-FB6B7994-F5FB-E1F6-5AD4-7FD9F2A1A0DA&quot;}<br />
+      <em><strong>返回　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">get_friendaction_ofmy</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;list&quot;:[]}<br />
+      <br />
+      loginid值为用户登录id<br />
+      <br />
+      ok值为n表示执行失败，值为y表示执行成功<br />
+      list值为嵌套数据<br />
+      -&gt;actid值为动态ID<br />
+      -&gt;mtime值为动态发生的时间，mlong，mlat为动态发生的经纬度<br />
+      -&gt;ltime值为用户最后在线时间，llong，llat为用户最后所在的经纬度<br />
+      -&gt;dist_mmeter动态发生地点与我的距离，dist_lmeter好友当前与我的距离<br />
+      -&gt;disttime到达动态发生点的距离，交通所需时间<br />
+      -&gt;uid为好友的ID半步编号，pname好友的名字<br />
+      -&gt;gender性别f女m男，oldyears年龄，hbody身高，sstar星座，xblood血型<br />
+      -&gt;uface头像文件URL<br />
+      -&gt;content值为嵌套数据<br />
+<span style="color:green;">　　-&gt; saytext值为正文的文字信息<br />
+　　-&gt; attach值为嵌套信息，是本条动态的附件列表<br />
+　　　　-&gt; type值为image/sound等<br />
+　　　　-&gt; content值为附件文件的完整URL网址</span><br />
+      -&gt;comments本条动态的评论数量</td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//按类别好友的列表</td>
+  </tr>
+  <tr>
+    <td><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_friend/_get_friendlist_ofmy.php?jsonfrom=</span><br />
+      <em><strong>参数　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">get_friendlist_ofmy</span>&quot;,&quot;loginid&quot;:&quot;120627-201459-FB6B7994-F5FB-E1F6-5AD4-7FD9F2A1A0DA&quot;,&quot;kind&quot;:&quot;关注&quot;}<br />
+      <em><strong>返回　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">get_friendlist_ofmy</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;list&quot;:[]}<br />
+      <br />
+      loginid值为登录成功时返回的唯一标识<br />
+kind值为与我的关系，关注/粉丝/好友<br />
+<br />
+ok值为y表示返回成功，值为n表示返回不成功<br />
+list值为嵌套数据<br />
+-&gt; loginid是loginid缩写，值为对方用户的登录ID<br />
+-&gt; uid是userid缩写，值为对方用户的用户ID <br />
+-&gt; pname是personname缩写，值为对方用户的昵称 <br />
+-&gt; uface是userface缩写，值为对方用户的头像完整路径<br />
+-&gt; ltime是logintime缩写，值为对方的最后更新时间，llong值为对方用户的经度坐标，llat值为对方用户的纬度坐标<br />
+-&gt; distmeter是用户与我的距离  　　
+-&gt; disttime是用户与我的距离需花费的时间<br />
+-&gt; xblood值为血型，hbody值为身高，sstar值为星座，sayme值为个人签名档<br />
+-&gt; serveron值为对方用户登录所在服务器</td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//一个用户的动态列表</td>
+  </tr>
+  <tr>
+    <td><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_friend/_get_friendaction_byfrienduid.php?jsonfrom=</span><br />
+      <em><strong>参数　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">get_friendaction_byfrienduid</span>&quot;,&quot;loginid&quot;:&quot;120627-201459-FB6B7994-F5FB-E1F6-5AD4-7FD9F2A1A0DA&quot;,&quot;frienduid&quot;:&quot;1115&quot;}<br />
+      <em><strong>返回　</strong></em>{&quot;fc&quot;:&quot;<span class="smalltitle">get_friendaction_byfrienduid</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;list&quot;:[]}<br />
+      <br />
+      loginid值为用户登录id<br />
+      <br />
+      ok值为n表示执行失败，值为y表示执行成功<br />
+      list值为嵌套数据<br />
+      -&gt;actid值为动态ID<br />
+      -&gt;mtime值为动态发生的时间，mlong，mlat为动态发生的经纬度<br />
+      -&gt;ltime值为用户最后在线时间，llong，llat为用户最后所在的经纬度<br />
+      -&gt;dist_mmeter动态发生地点与我的距离，dist_lmeter好友当前与我的距离<br />
+      -&gt;disttime到达动态发生点的距离，交通所需时间<br />
+      -&gt;uid为好友的ID半步编号，pname好友的名字<br />
+      -&gt;gender性别f女m男，oldyears年龄，hbody身高，sstar星座，xblood血型<br />
+      -&gt;uface头像文件URL<br />
+      -&gt;content值为嵌套数据<br />
+      <span style="color:green;">　　-&gt; saytext值为正文的文字信息<br />
+        　　-&gt; attach值为嵌套信息，是本条动态的附件列表<br />
+        　　　　-&gt; type值为image/sound等<br />
+        　　　　-&gt; content值为附件文件的完整URL网址</span><br />
+    -&gt;comments本条动态的评论数量</td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE">//返回看过我的人列表</td>
+  </tr>
+  <tr>
+    <td><em><strong>网址</strong></em>　<span class="smalltitle">http://www.halfeet.com/_friend/_get_viewerlist_ofmy.php?jsonfrom=</span><br />
+      <em><strong>参数</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_viewerlist_ofmy</span>&quot;,&quot;loginid&quot;:&quot;120627-201459-FB6B7994-F5FB-E1F6-5AD4-7FD9F2A1A0DA&quot;}<br />
+      <em><strong>返回</strong></em>　{&quot;fc&quot;:&quot;<span class="smalltitle">get_viewerlist_ofmy</span>&quot;,&quot;ok&quot;:&quot;y&quot;,&quot;list&quot;:[]} <br />
+      <br />
+      loginid值为登录成功时返回的唯一标识<br />
+      plong，plat值为当前用户的经纬度坐标<br />
+      <br />
+      ok值为y表示返回成功，值为n表示返回不成功<br />
+      list值为嵌套数据<br />
+      -&gt; loginid是loginid缩写，值为对方用户的登录ID<br />
+      -&gt; uid是userid缩写，值为对方用户的用户ID <br />
+      -&gt; pname是personname缩写，值为对方用户的昵称 <br />
+      -&gt; uface是userface缩写，值为对方用户的头像完整路径，不含http://<br />
+      -&gt; ltime是logintime缩写，值为对方的最后更新时间，llong值为对方用户的经度坐标，llat值为对方用户的纬度坐标<br />
+      -&gt; distmeter是用户与我的距离  　　
+      -&gt; disttime是用户与我的距离需花费的时间<br />
+      -&gt; xblood值为血型，hbody值为身高，sstar值为星座，sayme值为个人签名档<br />
+    -&gt; serveron值为对方用户登录所在服务器<br /></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFCC00">//******好友圈接口*****</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="index.html">返回首页</a></td>
+  </tr>
+</table>
+</body>
+</html>

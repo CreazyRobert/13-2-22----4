@@ -1,0 +1,653 @@
+
+
+
+
+//
+//  Localizable.strings
+//  SinaWeiBoSDK
+//  Based on OAuth 2.0
+//
+//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+//  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+//  OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+//  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+//  HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+//  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+//  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+//  OTHER DEALINGS IN THE SOFTWARE.
+//
+//  Copyright 2011 Sina. All rights reserved.
+//
+
+"发送" = "送信";
+
+"关闭" = "工場を閉鎖し";
+
+"新浪微博" = "新浪マイクロ博";
+
+"确定" = "確定";
+
+"请输入微博内容" = "入力してください。微博内容を盛り込んでいる";
+
+"取消" = "キャンセル";
+
+"登录" = "登录され";
+
+"用户名" = "ユーザー名";
+
+"密码" = "暗証番号";
+
+
+
+/*******************************************************************************/
+CFBundleDisplayName = "ﾊｰﾌﾌｨｰﾄ";
+"savesucess" = "正常に保存され";
+"savefail" = "保存に失敗しました";
+
+/*************************************/
+"nextButton" = "次へ";
+"finishButton" = "完了";
+"deleteButton" = "削除";
+"saveButton" = "保存";
+"clearButton" = "クリアマーク";
+"profileButton" = "ﾌﾟﾛﾌｨｰﾙ";
+"sortButton" = "セレクト";
+"returnButton" = "戻る";
+"changeNotice" = "一度提出されると、変更することはできません ";
+"noticeNotice" = "ヒント";
+"cancelNotice" = "キャンセル";
+"confirmNotice" = "確定";
+"uploadFailNotice" = "アップロードに失敗しました";
+"chuliNotice" = "処理中...";
+"profileAlertNotice" = "あなたは、アバターの情報が変更され、それを保存しますか ";
+
+//获取数据失败、请求数据异常。
+"network_error" = "デーダー読み込む失敗";
+"data_error" = "データを請求する出来ませんでした";
+"network_unavailabel" = "現在のネットワークが利用できない場合は、確認してください";
+
+//关于刷新
+"loadingNotice" = "読み込み中...";
+"loadMoreButton"="クリックして　次を見る";
+"lastRefresh" = "前回更新：";
+"loosenRefresh" = "指を放して更新";
+"pulldownRefresh" = "下へ伸ばして更新";
+/*************************************/
+//BanBu_AppDelegate
+"luckPeopleTitle" = "付近の人";
+"broadcastTitle" = "近く広場";
+"selectTitle" = "ボール投げ";
+"dialogueTitle" = "チャット";
+"myFriendTitle" = "友だち";
+"mySpaceTitle" = "ホーム";
+"pinglunTitle" = "ﾊｰﾌﾌｨｰﾄについて評価";
+
+"pinglunNotice" = "あなたは　ﾊｰﾌﾌｨｰﾄを使用することを好む場合には、あなたの1分間の時間を取ってください！ご支援いただき、ありがとうございます！";
+"openPush" = "プッシュ通知は、閉鎖されている";
+"howOpenPush" = "ﾊｰﾌﾌｨｰﾄのメッセージの受け取ることを続けることには　プッシュ通知、訪問設定>通知の> ﾊｰﾌﾌｨｰﾄを有効にする";
+
+"laterButton" = "後で通知";
+"newButton" = "Halfeetを評価";
+//未登录//登录//注册界面
+/**********************************************/
+//BanBu_UserAgreement
+"userAgreeTitle" = "ユーザー使用許諾契約";
+//BanBu_UnloginedController
+"fristTitle" = "ﾊｰﾌﾌｨｰﾄ";
+"regButton" = "登録";
+"logButton" = "ログイン";
+"scanButton" = "客";
+"nearPeople" = "付近で";
+"propagandaTitle" = "ﾊｰﾌﾌｨｰﾄ: 近く人とチャット";
+
+//BanBu_LoginViewController
+"loginTitle" = "ログイン";
+"userNameLabel" = "アカウント";
+"userPlabeholder" = "電子メール、またはハーフフィートNo.";
+"pwPlaceholder" = "ハーフフィートのログイン　パスワードを入力してください。";
+"loading" = "登録中...";
+"userNameNil" = "ユーザ名";
+"passWordError" = "有効なパスワードを入力してください";
+"userNameOrpassWordError" = "ユーザ名またはパスワードが正しくありません";
+//BanBu_RegViewController
+"regTitle" = "登録";
+"emailLabel" = "E-mailアドレス";
+"passwordLabel" = "パスワード";
+"pPlaceholder" = "6桁以上してください。";
+"confirmationLabel" = "パスワードの重複";
+"cPlaceholedr" = "パスワードを再入力する";
+"bottomNotice" = "\n    メールアカウントはハーフフィートのログインID、パスワードを取り返す証拠です，正しいメールアドレスを記入してください。\n\n    登録するとあなたは　ハーフフィートユーザー使用許諾契約に同意することを示しています。";//"ユーザー使用許諾契約"
+"errorMsg" = "E-mailアドレスを入力してください";
+"errorMsg1" = "有効なメールアドレスを入力してください";
+"errorMsg2" = "パスワードを入力してください";
+"errorMsg3" = "パスワードの長さは6桁以上してください。";
+"errorMsg4" = "繰り返して、パスワードを入力してください";
+"errorMsg5" = "入力した2つのパスワードが一致しません";
+"detectEmail" = "メールアドレスをチェックしています...";
+"successEmail" = "利用可能なメールボックス、おめでとうございます！";
+"failEmail" = "申し訳ありませんが、メールボックスが登録されています！";
+//BanBu_NameAndSexController
+"nameAndSexTitle" = "名前と性別";
+"nameLabel" = "名前";
+"nameNotice" = "より速くあなたを見つけると連絡する人々の本当の名前を使用するように";
+"namePlaceholder" = "自分の名前を入力してください";
+"boyItem" = "    男性 ♂    ";
+"girlItem" = "    女性 ♀    ";
+"selectSex" = "あなたの選択した性別：";
+"editSex" = "修正";
+"boy" = "男性";
+"girl" = "女性";
+//BanBu_BloodTypeAndHeightController
+"bodyAndBloodTitle" = "体と血液型";
+"heightLabel" = "  あなたの身長（cm）を選択してください";
+"bloodLabel" = "  あなたの血液型を選択してください";
+"wightLabel" = "  あなたの体重(kg)を選択してください";
+//BanBu_BirthdayViewController
+"birthdayTitle" = "生年月日";
+"ageLabel" = "年齢";
+"starLabel" = "星座";
+"birthNotice" = "あなたの生年月日を入力して、システムは自動的に年計算します年齢と星座。あなたの生年月日は個人プロフィールには表示されません。このアプリケーションでは、年齢18歳以上を必要とします。";
+"ageNumber" = "歳";
+"ageNotice" = "年齢を入力してください";
+"starItem" = "水瓶座";
+"starItem1" = "魚座";
+"starItem2" = "牡羊座";
+"starItem3" = "トーラス";
+"starItem4" = "ジェミニ";
+"starItem5" = "がん";
+"starItem6" = "レオ";
+"starItem7" = "乙女座";
+"starItem8" = "天秤座";
+"starItem9" = "蠍座";
+"starItem10" = "射手座";
+"starItem11" = "山羊座";
+//BanBu_SetAvatarViewController
+"avatarTitle" = "アバターを設置する";
+"btnXiangCe" = "選択アルバム写真";
+"btnCamera" = "すぐに撮影";
+"sendAvater" = "アバターをアップロッド中";
+"selectAvater" = "アバターを選択する";
+"registering" = "登録されています...";
+"getMessage" = "ログイン情報を取得...";
+"reUpload" = "リロードします";
+"waitauditNotice" = "画像をアップロードした　審査中";
+//BanBu_ListViewController
+"titleItem" = "付近の人";
+"titleItem1" = "近く広場";
+"listTitle" = "女性";
+"listTitle1" = "男性";
+"ListTitle2" = "全員";
+"listButton" = "投稿";
+"distanceLabel" = "最新のオンライン：";
+"intimeLabel" = "投稿：";
+"commendLabel" = "コメント：";
+"reportLabel" = "報告";
+"reportNotice" = "報告が提出されました！";
+"tipNotice" = "あなたの位置を確定した：";
+"tipNotice1" = "環境やネットワークの条件の要因のため、位置確定に失敗！";
+"noticeLabel" = "近くの人が　いません、下にスクロールしてみてください！";
+"noticeLabel1" = "近く広場には　情報がありません、速やかに発表してください。";
+//动态详情页面
+//BanBu_DynamicDetailsController
+"replyTime" = "返信：";
+"replyTitle" = "返信";
+"footLabel" = "1つコメントがありません、第一人でコメントしよう！";
+//BanBu_ReplyViewController
+"sendReply" = "送信";
+"sendingNotice" = "送信しています...";
+
+//BanBu_GreetingViewController
+"requestUser" = "友達ﾘｸｴｽﾄ";
+"saywhat" = "挨拶する";
+"confirmFriend" = "友達確認";
+"sendS" = "発信成功した";
+"sendF" = "発信失敗した";
+
+//BanBu_PeopleProfileController
+"displayPeopleProfile" = "ﾌﾟﾛﾌｨｰﾙ";
+"displayPeopleNews" = "最新更新";
+"relationshipLabel" = "相互関係";
+"writeMessage" = "    会話";
+"addLink" = "      フォロー";
+"delLink" = "      ｱﾝ ﾌｫﾛｰ";
+"pullBlackReport" = "      オプション";
+"friendShip" = "フォロー";
+"friendShip1" = "ファン";
+"friendShip2" = "友達";
+"friendShip3" = "ブラックリスト";
+"friendShip4" = "見知らぬ人";
+"friendShip5" = "本人";
+"aliasAction" = "メモを追加";
+"pullBlackTitle" = "ブロック";
+"pullBlackAndReport" = "ブロックし　報告";
+"viewBlackList" = "ブラックリストを見る";
+"linkButton" = "フォロー確定？";
+"unlinkButton" = "フォロー取消を確定する？";
+"linkSuccess" = "フォローを成功した";
+"unlinkSuccess" = "フォロー取消";
+"badMessage" = "嫌がらせの情報";
+"badMessage1" = "ポルノ";
+"badMessage2" = "不適切な個人データ";
+"badMessage3" = "他人のデータを盗む";
+"badDetailMessage" = "特定の理由を入力してください";
+"reportUser" = "このユーザーを報告する";
+"submitButton" = "提出する";
+"pullBlackOK" = "ブラックリストを成功した";
+"blackAndReportOK" = "ユーザをブロックし　報告を成功した";
+"addFriend" = "友達追加を確定？";
+
+//BanBu_NoteView
+"editNote" = "ﾆｯｸﾈｰﾑ";
+"aliasPlaceholder" = "ﾆｯｸﾈｰﾑを入力してください";
+"originalName" = "従来名前";
+"addNote" = "名前を編集";
+
+//BanBu_ReleaseController
+"releaseTitle" = "投稿する";
+"sayRelease" = "周囲の人々にいまの気持ちを伝える";
+"fenLabel" = "ソーシャルネットワーキングサイトへのシェア";
+"sendNow" = "直ちに送信";
+"locationNotice" = "あなたの場所のデータがロードされました！";
+"sinaBing" = "sina weibo IDを関連した";
+"tXBing"= "Tencent weibo IDを関連した";
+"unsinaBing"= "sina weibo IDを関連しません！";
+"unTXBing" = "Tencentのマイクロブログの未関連";
+"shareToSina" = "sinaのマイクロブログの共有";
+"shareToTX" = "tencentのマイクロブログの共有";
+"isSendBro" = "投稿の発表を確定する？";
+"contentNil" = "テキストメッセージがありません";
+//"releaseSuccess" = "投稿の発表を成功した";
+"oneImage" = "画像が必要です";
+
+"releaseSuccess" = "投稿が提出された、審査中！";
+
+"isAgreeNotice" = "ﾊｰﾌﾌｨｰﾄのユーザ協議を同意するという";
+"aStr" = "私はユーザ協議を同意する";
+"bStr" = "ﾊｰﾌﾌｨｰﾄのユーザ協議";
+"seqingNotice" = "ポルノや有害な情報を送信したユーザは 報告され、検証されると　携帯電話は禁止され、ﾊｰﾌﾌｨｰﾄIDは 登録したり、ログインすることができません";
+
+//BanBu_GraffitiController,涂鸦
+"brushSize"= "サイズ：";
+"emptySheet" = "現在の落書きを削除してもよろしいですか？";
+"sendSheet" = "現在の落書きを送信してもよろしいですか？";
+"sendAndSaveImage" = "送信し、アルバムに保存します。";
+"onlySendImage" = "のみを送信";
+"changeBackImage" = "背景を変更する？";
+
+/**********************************************/
+//抛绣球
+/**********************************************/
+//BanBu_SelectController,抛绣球的选择页面
+"placeLabel" = "１つ場所";
+"moodLabel" = "１つ気分";
+"fateLabel" = "１つの縁";
+"throwOneLabel" = "投げる";
+"myBallLabel" = "私のボール";
+//BanBu_SelectPlaceController
+"selectPlaceTitle"= "宛先";
+"setCityLabel" = "設定都市";
+"setPlaceLabel" = "場所名";
+"hotPlaces" = "ホットスポット位置";
+"cityplaceNil" = "都市や場所の名前は空白にすることはできません";
+"placeNULL" = "ここに存在しません";
+"huntNotice" = "検索......";
+//BanBu_ThrowBallController
+"throwBallTitle" = "ボールを投げる";
+"editAlert" = "編集したコンテンツを放棄しますか";
+"sayBall" = "あなたの気分をボールに入れます";
+"emptyToolItem" = "クリアする";
+"finishToolItem" = "完了";
+"funLabel" = "撮影";
+"funLabel1" = "画像";
+"funLabel2" = "声";
+"funLabel3" = "落書";
+"funLabel4" = "私の場所";
+"selectOneway" = "リマインダー：各ボールのコンテンツにはテキストや写真、アルバム、音声、落書き、私の位置の中から　１つ種類モノ存在する";
+"throwNow" = "すぐに投げる";
+"editActionSheet" = "編集された内容を上書きする";
+"wordNilNotice" = "テキストメッセージがありません";
+"throwAlert" = "あなたはボールを投げて　よろしいですか";
+"throwSuccess" = "ボールを投げて成功した";
+//BanBu_MyBallsController
+"myBallTitle" = "私のボール";
+/**********************************************/
+
+
+
+//对话
+/**********************************************/
+"mySay" = "[私]";
+"talkPicture" = "[画像]";
+"talkLocation" = "[場所]";
+"talkSound" = "[声]";
+//BanBu_MakeBigMapViewController
+"makebigTitle" = "場所の詳細情";
+/**********************************************/
+//友情提示UIView
+"helpfulTitle" = "ご注意";
+"warningLabel" = "エロい言語、ONS、嫌がらせなど行動をした場合には、報告され、検証されているような、携帯電話は永久に封印されたであろう、禁止はもはや登録したり、任意のハーフフィート　loginができません。 ";
+"infoLabel" = "特別悪質の場合には　警察に届ける";
+"chat_btn" = "了解しました";
+"sendLocation" = "あなたの場所を送信";
+"seeMoreMessage" = "もっとチャットを見る";
+
+/*************************/
+"copyButton" = "コピー";
+"shareButton" = "シェア";
+
+"opera" = "操作";
+"deleteMes" = "チャット歴を削除";
+"forward" = "転送";
+"retransmission" = "再送信";
+"confomForward" = "再送信しますか";
+"confirmDelete" = "メーセージの削除を確定しますか？";
+"newsState" = " 着く";
+"newsState1" = " 既読";
+"newsState2" = " 未読";
+"newsState3" = " 発送中";
+"newsState4" = " 失敗";
+
+"errcode_fail" = "シェアウェア障害";
+"errcode_cancel" = "キャンセル";
+"shareSuccess" = "シェアした";
+"comefromIceBreak" = "トークヘルパー";
+"comefromtuya" = "落書から";
+
+"noticeNotLog" = "ログインしてください。";
+"flagTitle" = "シンボル";
+"smileTitle" = "表情";
+"addBtn" = "追加";
+"locationBtn" = "場所";
+"holdtotalk" = "押したまま話す";
+"kongAlert" = "空白メッセージは送信できません";
+
+/***************************/
+//表情文字
+"smileItem" = "ﾓﾝｽﾀ";
+"smileItem1" = "ﾄﾞｳﾛ";
+"smileItem2" = "多様";
+"smileItem3" = "ｽｲﾀ";
+"smileItem4" = "ｼｱﾜｾ";
+"smileItem5" = "歌ｽﾀ";
+"smileItem6" = "ｷﾓﾜﾙｲ";
+"smileItem7" = "頑張れ";
+"smileItem8" = "ｵﾄﾛｷ";
+"smileItem9" = "ｶﾜｲ";
+"smileItem10" = "気の毒";
+"smileItem11" = "ﾄｵﾙ";
+"smileItem12" = "ﾏｲｸｽﾀ";
+"smileItem13" = "ｵｺﾙ";
+"smileItem14" = "ｱｲｼﾞﾝ";
+"smileItem15" = "ﾀｽｹﾃ";
+"smileItem16" = "甘え";
+"smileItem17" = "ﾈﾙ";
+"smileItem18" = "ｶｯｺｲ";
+"smileItem19" = "痛み";
+"smileItem20" = "ﾊｽﾞｶｼ";
+"smileItem21" = "ﾌﾞﾚｰｼｬ";
+"smileItem22" = "陰謀";
+"smileItem23" = "ﾏﾊﾞﾀｷ";
+"smileItem24" = " お金";
+"smileItem25" = "変な";
+"smileItem26" = "爆発";
+"smileItem27" = "退屈な";
+"smileItem28" = "ショー";
+"smileItem29" = "リード";
+"smileItem30" = "ツイスト";
+"smileItem31" = "ダンス";
+"smileItem32" = "誇らしい";
+"smileItem33" = "運動";
+"smileItem34" = "救命の";
+"smileItem35" = "離れて";
+"smileItem36" = "スタイル";
+"smileItem37" = "行く";
+"resend"="再送信";
+
+/*****************破冰语*********************/
+
+//BanBu_SearchIceViewController
+"searchIce" = "トークヘルパー";
+"searchTextField" = "キーワードを入力することができます";
+"searchIceBtn" = "検索";
+"tuijianLabel" = "ホットキーワード";
+"searchkey" = "検索-";
+
+"ice_actionSheetButtionTitle" = "直ちに送信";
+"ice_actionSheetButtionTitle1" = "weichat友人へシェアする";
+"ice_actionSheetButtionTitle2" = "weichatモーメンツへシェアする";
+
+//BanBu_IceBreakerController
+"ice_textTitle" = "テキスト挨拶語";
+//BanBu_IceBreaker_Voice
+"ice_voiceTitle" = "音声挨拶語";
+//BanBu_icePicController
+"ice_picTitle" = "写真挨拶語";
+"scanPic" = "ブラウズ写真";
+
+//好友圈
+
+//BanBu_MyFriendViewController
+"friendTitle" = "友達サークル";
+"fItem" = "距離";
+"fItem1" = "最後のログイン時間";
+"fItem2" = "フォロー時間の順、";
+"summary_g" = "フォロー";
+"summary_f" = "ファン";
+"summary_h" = "友達";
+"friendNoticeLabel" = "あなたはまだ友人をフォローしませんね、近く人をフォローしましょ！";
+"friendNoticeLabel1" = "ファンがいませんね、直ちに双方をファンしましょ";
+"friendNoticeLabel2" = "あなたは友人をお持ちしませんね、近く友達を見つかりしましょ！";
+//BanBu_AddNewFriendViewController
+"andNewFriendTitle" = "友達を追加";
+"searchBtn" = "検索";
+"zibarBtn" = "スキャン2次元コード";
+"headerAndholder" = "Email、Halfeet IDを入力してください";
+"nilNotice" = "空にすることはできません！";
+"selfNotice" = "ああ、あなた自身です！";
+"searchNotice" = "探している......";
+"emailError" = "電子メールの形式が正しくありません";
+"resquesting"= "前回リクエストをロッド中....";
+"rReaderTitle" = "スキャンして友人を追加する";
+//BanBu_MySpaceViewController
+"myApp" = "  アプリケーション";
+"myCenter" = "  ホーム";
+"myinfoLabel" = "ﾌﾟﾛﾌｨｰﾙ";
+"systemLabel" = "設定";
+"dymaicLabel" = "最新更新";
+"visitorLabel" = "訪問記録";
+
+"helperLabel" = "ヘルプ";
+//BanBu_MyProfileViewController
+"editAvatar" = "アバター編集";
+"profileSection" = "  基本情報";
+"profileSection1" = "  ﾌﾟﾛﾌｨｰﾙ";
+"profileSection2" = "  関連ID";
+"profileSection3" = "  アカウント";
+
+"weiboBing" = "接続";
+"weiboUnBing" = "未関連";
+"reBinding" = "関連解除";
+"sinaSheetTitle" = "sina weibo";
+"TXSheetTitle" = "Tencentのマイクロブログ";
+"updateAvatarSuccess" = "更新に成功アバター";
+"reBindingSuccess" = "関連解除を成功した";
+"updateInfo" = "アップデートデータ...";
+"updateAvatar" = "アップデートアバター...";
+
+"bangdingSina" = "Sinaを関連する";
+"bangdingTX" = "Tencentを関連する";
+
+//太特别
+"changeInfo" = "あなたが%@変更を加えて、保存したい？";
+// 0 section
+"s0c0" = "ハーフフィートID";
+"s0c1" = "2次元コード名刺";
+"s0c2" = "いまの気持ち";
+"s0c2DefaluteValue" = "署名の近くには、人々が自分の状況を知っているでしょう";
+//1 section
+"s1c0" = "身長（cm）";
+"s1c1" = "血液型";
+"s1c2" = "体重（kg）";
+//2 section
+"s2c0" = "趣味";
+"s2c0DefaluteValue" = "自分の興味";
+"s2c1" = "よく遊ぶ所";
+"s2c1DefaluteValue" = "あなたが頻繁に出没する場所か";
+"s2c2" = "会社名";
+"s2c2DefaluteValue" = "あなたは今までどの会社で働いていました";
+"s2c3" = "職業";
+"s2c3DefaluteValue" = "あなたの仕事の種類";
+"s2c4" = "学校";
+"s2c4DefaluteValue" = "あなたは今までどの学校に在籍したことがあります";
+
+//3 section
+"s3c0" = "sinaマイクロブログ";
+"s3c1" = "Tencentのマイクロブログ";
+
+
+//编辑头像
+/**********************************************/
+//BanBu_PhotoManager
+"addPhoto" = "写真追加";
+"changePhoto" = "削除又取替える";
+"deletePhoto" = "画像の削除";
+"mustOneImage" = "最低一枚画像を保留してください。";
+
+//BanBu_ZibarController
+"zibarTitle" = "2次元コード名刺";
+"banbuNum" = "ハーフフィートID";
+"descripLabel" = "写真をスキャンし　ハーフフィートIDを追加する";
+
+//BanBu_WorkViewController
+"workTitle" = "職業";
+"workNil" = "職業は空にすることはできません";
+"workBelong" = "業界";
+"workItem"= "コンピュータ/インターネット/通信";
+"workItem1" = "生産/プロセス/製造";
+"workItem2" = "ビジネス/ホスピタリティ/製造";
+"workItem3" = "金融/銀行/投資/保険";
+"workItem4" = "文化/広告/メディア";
+"workItem5" = "エンターテインメント/アート/パフォーマンス";
+"workItem6" = "医療/介護/医薬品";
+"workItem7" = "弁護士/法務";
+"workItem8" = "教育/トレーニング";
+"workItem9" = "公務員/公共機関";
+"workItem10" = "学生";
+
+
+//BanBu_SettingViewController
+"settingTitle" = "システム設定";
+"exitBtn" = "終了";
+"messageMan" = "ニュース管理";
+"userNameMan" = "アカウントの管理";
+"stealthLabel" = "隠すモード";
+"soundSwitch" = "音";
+"newmsgNotice" = "ニュースアラート";
+"soundType" = "トーンタイプ";
+//"stealthDetailLabel" = "";
+"locationLabel" = "位置確定";
+"remindLabel" = "通知の設定";
+"muteLabel" = "ミュート期間";
+//"muteDetailLabel" = "";
+"PWSettingLabel" = "パスワードの設定";
+"blackLabel" = "ブラックリスト";
+"feedBackLabel" = "フィードバック";
+"commendForBanbu" = "半歩レビューに";
+"userHelpr" = "ユーザーヘルプ";
+//BanBu_BlacklistViewController
+"blackTitle" = "ブラックリスト";
+"unlockButton" = "解除";
+//BanBu_ChangePWViewController
+"changePWTitle" = "パスワードの変更";
+"errorMsg6" = "元のパスワードを入力してください";
+"errorMsg7" = "新しいパスワードを入力してください";
+"changePWNotice" = "変更中.....";
+"changeOK" = "パスワード設定が　成功した";
+"oldPWLabel" = "古いパスワード";
+"inputOldPW" = "古いパスワードを入力してください";
+"newPWLabel" = "新しいパスワード";
+"conPWLabel" = "パスワードの再入力";
+
+/**********************************************/
+//动态一览
+//BanBu_DynamicController
+"dynamicTitle" = "最新更新";
+"displayVisitRecord" = "訪問記録";
+"displayFriendNews" = "最新更新";
+"friendNewsNoticeLabel" = "あなたはまた友達がいませんね　友達最新更新もありませんね！";
+"visitRecordNoticeLabel" = "あなたを見た人がいませんね、投稿しよう！ ";
+/**********************************************/
+//帮助
+//BanBu_HelpViewController
+"helpTitle" = "ﾊｰﾌﾌｨｰﾄについて";
+"descripLabel" = "ハーフフィートは、近所の人と　気楽に出逢って　知り合うための携帯専用アプリである。　近い地理的位置に基づいて　音声、SMS、ビデオ、写真とテキストを近所の人に送信するできる";
+"tipsLabel" = "1）周辺の人々との対話する、\n2）近所の友人が　追加できる \n3）友達の日常生活の更新を常時に知り、友情を深める。";
+/**********************************************/
+//我的应用
+"trainTitle" = "北京地下鉄";
+
+
+
+/***********新版broadcast*********/
+"pictureAndVoiceTitle" = "写真と声";
+"addAPhoto" = "\n最初の写真を追加\n\n";
+"timeshortNoticte" = "長い録音ボタンを押してください";
+
+"textAndTagsTitle" = "テキストとタグ";
+"textDescription" = "テキストの文書を入力してください";
+"share_broadcast" = "シェア:";
+"bindNow" = "今すぐコネクト";
+"voiceOrTextNotice" = "最低1つの録音またはテキストが要る";
+
+"commentcount1" = "クリックして";
+"commentcount2" = "コメントを見る";
+
+"longVoice" = "長押す音声コメント";
+"zan_failed" = "あなたは既に提出した";
+"zan_success" = "提出を成功した";
+
+"tagTextfield" = "ラベル";
+"tagTextPlaceholder" = "タグを入力し、スペースで区切られています";
+"writeSomething" = "現時点で何かを書く...";
+
+"km500" = "500キロ内の検索";
+"km2000" = "2000キロ内の検索";
+
+// 我的设置里面的
+"notific"="通知";
+
+"notificChat"="チャット通知";
+
+"notificFriend"="最新更新通知";
+
+
+"jiaweihaoyou" = "会話";
+"kaishiduihua" = "フォロー";
+
+
+
+"requestFrom"="友達リクエストを受けました。チャット始めよう";
+
+
+"moreTitle" = "多く";
+
+"sexSelect" = "性別";
+"timeSelect" = "最後のオンライン";
+"selectTitle" = "フィルタの設定";
+
+//BanBu_ToseeGifViewController
+
+"tuyaEdit" = "落書き保存";
+"tuyaReply" = "落書き返信";
+"continueEdit" = "修正に戻る";
+"saveToAlum" = "アルバムに保存";
+
+
+/********************/
+
+//注册和修改资料的分享
+"reginShare" = "私が　ﾊｰﾌﾌｨｰﾄ(www.halfeet.com)を登録した。ハーフフィート：近所の人とチャットできるアプリです。";
+"photoShare" = "私はﾊｰﾌﾌｨｰﾄ(www.halfeet.com)で　新しい写真をアップロードしました。";
+"followShare" = "私は　ハーフフィート(www.halfeet.com)で　%@をフォローしました";
+
+

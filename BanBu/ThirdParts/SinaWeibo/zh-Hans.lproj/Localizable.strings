@@ -1,0 +1,631 @@
+/* Localized versions of Info.plist keys */
+
+//
+
+"发送" = "发送";
+
+"关闭" = "关闭";
+
+"新浪微博" = "新浪微博";
+
+"确定" = "确定";
+
+"请输入微博内容" = "请输入微博内容";
+
+"取消" = "取消";
+
+"登录" = "登录";
+
+"用户名" = "用户名";
+
+"密码" = "密码";
+
+/*******************************************************************************/
+CFBundleDisplayName = "半步";
+
+"savesucess" = "保存成功";
+"savefail" = "保存失败";
+//BanBu_GreetingViewController
+"requestUser" = "好友请求";
+"saywhat" = "说句话打个招呼";
+"confirmFriend" = "确认好友";
+"sendS" = "发送成功";
+"sendF" = "发送失败";
+/*************************************/
+"nextButton" = "下一步";
+"finishButton" = "完成";
+"deleteButton" = "删除";
+"saveButton" = "保存";
+"clearButton" = "清除标记";
+"profileButton" = "TA的资料";
+"sortButton" = "筛选";
+"returnButton" = "返回";
+"changeNotice" = "请确定你的选择，一旦提交无法更改！";
+"noticeNotice" = "提示";
+"cancelNotice" = "取消";
+"confirmNotice" = "确定";
+"uploadFailNotice" = "上传失败";
+"chuliNotice" = "正在处理……";
+"profileAlertNotice" = "您已对头像信息做了修改，是否保存?";
+//获取数据失败、请求数据异常。
+"network_error" = "获取数据失败";
+"data_error" = "请求数据失败";
+"network_unavailabel" = "当前网络不可用，请检查";
+
+//关于刷新的
+"loadingNotice" = "正在加载……";
+"loadMoreButton" = "点击获取更多";
+"lastRefresh" = "上次刷新：";
+"loosenRefresh" = "松开刷新……";
+"pulldownRefresh" = "下拉刷新……";
+/*************************************/
+//BanBu_AppDelegate(下面的五个标题)
+"luckPeopleTitle" = "附近的人";
+"broadcastTitle" = "附近广播";
+"selectTitle" = "抛绣球";
+"dialogueTitle" = "对话";
+"myFriendTitle" = "好友圈";
+"mySpaceTitle" = "我的空间";
+"pinglunTitle" = "给半步评分";
+"pinglunNotice" = "如果您喜欢使用半步, 是否介意花点时间为它评分? 您花费的时间不会超过一分钟. 感谢您的支持!";
+"openPush" = "推送通知已关闭";
+"howOpenPush" = "仅当半步打开时才会接收消息, 要打开推送通知, 请访问 设置>通知>半步";
+"laterButton" = "以后再说";
+"newButton" = "立即评价";
+//未登录//登录//注册界面
+/**********************************************/
+//BanBu_UserAgreement
+"userAgreeTitle" = "用户协议";
+//BanBu_UnloginedController
+"fristTitle" = "半步";
+"regButton"  = "注册";
+"logButton" = "登录";
+"scanButton" = "游客";
+"nearPeople" = "人在附近";
+"propagandaTitle" = "半步网: 附近陌生人约会交友";
+//BanBu_LoginViewController
+"loginTitle" = "登录";
+"userNameLabel" = "帐号";
+"userPlabeholder" = "邮箱或者半步号";
+"pwPlaceholder" = "请输入半步登录密码";
+"loading" = "正在登录……";
+"userNameNil" = "请输入帐号";
+"passWordError" = "请输入有效密码";
+"userNameOrpassWordError" = "用户名或密码错误";
+//BanBu_RegViewController
+"regTitle" = "注册帐号";
+"emailLabel" = "邮箱地址";
+"passwordLabel" = "密码";
+"pPlaceholder" = "不少于6位";
+"confirmationLabel" = "重复密码";
+"cPlaceholedr" = "再次输入密码";
+"bottomNotice" = "\n邮箱是登录半步的帐号，是取回密码唯一凭证，请确保邮箱有效和填写正确。\n注册即表示您同意半步用户协议";
+"errorMsg" = "请输入邮箱地址";
+"errorMsg1" = "请输入正确的邮箱地址";
+"errorMsg2" = "请输入密码";
+"errorMsg3" = "密码长度不少于6位";
+"errorMsg4" = "请输入重复密码";
+"errorMsg5" = "两次输入的密码不一致";
+"detectEmail" = "正在检测邮箱";
+"successEmail" = "恭喜你，邮箱可用！";
+"failEmail" = "很抱歉，邮箱已被注册！";
+//BanBu_NameAndSexController
+"nameAndSexTitle" = "名字与性别";
+"nameLabel" = "名字";
+"nameNotice" = "使用真实名字让人更快的找到和联系你";
+"namePlaceholder" = "请输入你的名字";
+"boyItem" = "    男 ♂    ";
+"girlItem" = "    女 ♀    ";
+"selectSex" = "您选择的性别是：";
+"editSex" = "更改";
+"boy" = "男";
+"girl" = "女";
+
+//BanBu_BloodTypeAndHeightController
+"bodyAndBloodTitle" = "身体与血型";
+"heightLabel" = "  请选择的您的身高(cm)";
+"bloodLabel" = "  请选择的您的血型";
+"wightLabel" = "  请选择的您的体重(kg)";
+//BanBu_BirthdayViewController
+"birthdayTitle" = "出生日期";
+"ageLabel" = "年龄";
+"starLabel" = "星座";
+"birthNotice" = "输入你的出生日期，系统会自动算出年龄和星座。你的出生日期将不会出现在个人资料里。此应用需要你年满18岁。";
+"ageNumber" = "岁";
+"ageNotice" = "请输入年龄";
+"starItem" = "水瓶座";
+"starItem1" = "双鱼座";
+"starItem2" = "白羊座";
+"starItem3" = "金牛座";
+"starItem4" = "双子座";
+"starItem5" = "巨蟹座";
+"starItem6" = "狮子座";
+"starItem7" = "处女座";
+"starItem8" = "天秤座";
+"starItem9" = "天蝎座";
+"starItem10" = "射手座";
+"starItem11" = "摩羯座";
+//BanBu_SetAvatarViewController
+"avatarTitle" = "设置头像";
+"btnXiangCe" = "选取相册照片";
+"btnCamera" = "现在拍摄一张";
+"sendAvater" = "正在上传头像";
+"selectAvater" = "请选择头像";
+"registering" = "正在注册……";
+"getMessage" = "获取登陆信息……";
+"reUpload" = "重新上传";
+"waitauditNotice" = "上传头像成功，经审核后方可显示";
+/**********************************************/
+
+//附近的人和广播
+/**********************************************/
+//BanBu_ListViewController
+"titleItem" = "附近的人";
+"titleItem1" = "附近广播";
+"listTitle" = "仅女生";
+"listTitle1" = "仅男生";
+"listTitle2" = "全部";
+"listButton" = "发布";
+"distanceLabel" = "最新上线：";
+"intimeLabel" = "发布于：";
+"commendLabel" = "评论";
+"reportLabel" = "举报";
+"reportNotice" = "举报已提交！";
+"tipNotice" = "已定位您的位置：";
+"tipNotice1" = "由于环境和网络条件因素，定位失败！";
+"noticeLabel" = "附近没有人，尝试下拉页面，找找人！";
+"noticeLabel1" = "附近还没有广播，赶快去发布一条吧！";
+//动态详情页面
+//BanBu_DynamicDetailsController
+"replyTime" = "回复于：";
+"replyTitle" = "回复";
+"footLabel" = "还没有人评论，快来抢沙发！";
+//BanBu_ReplyViewController
+"sendReply" = "发送";
+"sendingNotice" = "正在发送……";
+
+
+
+
+
+//BanBu_PeopleProfileController
+"displayPeopleProfile" = "个人信息";
+"displayPeopleNews" = "TA的动态";
+"relationshipLabel" = "相互关系";
+"writeMessage" = "    发起对话";
+"addLink" = "      添加关注";
+"delLink" = "      取消关注";
+"pullBlackReport" = "      更多选项";
+"friendShip" = "关注";
+"friendShip1" = "粉丝";
+"friendShip2" = "好友";
+"friendShip3" = "黑名单";
+"friendShip4" = "陌生人";
+"friendShip5" = "自己";
+"aliasAction" = "添加备注";
+"pullBlackTitle" = "拉黑";
+"pullBlackAndReport" = "拉黑并举报";
+"viewBlackList" = "查看黑名单列表";
+"linkButton" = "确定关注?";
+"unlinkButton" ="确定取消关注";
+"linkSuccess" = "  成 功 关 注  ";
+"unlinkSuccess" = "  取 消 关 注  ";
+"badMessage" = "骚扰信息";
+"badMessage1" = "色情信息";
+"badMessage2" = "个人资料不当";
+"badMessage3" = "盗用他人资料";
+"badDetailMessage" = "请在此输入具体原因";
+"reportUser" = "举报该用户";
+"submitButton" = "提交";
+"pullBlackOK" = "成功拉入黑名单";
+"blackAndReportOK" = "成功举报并拉入黑名单";
+"addFriend" = "确定添加好友？";
+
+//BanBu_NoteView
+"editNote" = "修改备注";
+"aliasPlaceholder" = "请输入备注名";
+"originalName" = "原名";
+"addNote" = "修改备注名称";
+//BanBu_ReleaseController
+"releaseTitle" = "发布广播";
+"sayRelease" = "把 你 的 心 情 告 诉 附 近 的 人";
+"fenLabel" = "分享到社交网站";
+"sendNow" = "立即发送";
+"locationNotice" = "您的位置数据已载入！";
+"sinaBing" ="已绑定新浪微博！";
+"TXBing" = "已绑定腾讯微博！";
+"UnsinaBing" ="新浪微博未绑定！";
+"UnTXBing" = "腾讯微博未绑定！";
+"shareToSina" = "分享到新浪微博";
+"shareToTX" = "分享到腾讯微博";
+"isSendBro" = "是否确定发布广播";
+"contentNil" = "没有文字信息！";
+"oneImage" = "必须有一张图片";
+
+"releaseSuccess" = "广播内容已提交，请等待审核！";
+
+"isAgreeNotice" = "请阅读并同意半步用户协议";
+"aStr" = "我已阅读并同意";
+"bStr" = "半步用户协议";
+"seqingNotice" = "发送色情或其他不良信息的用户，如被举报并核实，其手机将会被封禁，再也不能注册或登录任何半步号。";
+
+//BanBu_GraffitiController,涂鸦
+"brushSize" = "画笔大小：";
+"emptySheet" = "你确定要删除当前的的涂鸦画?";
+"sendSheet" = "你确定要发送当前的的涂鸦画?";
+"sendAndSaveImage" = "发送并保存到相册";
+"onlySendImage" = "仅发送";
+"changeBackImage" = "是否更换底图？";
+/**********************************************/
+//抛绣球
+/**********************************************/
+//BanBu_SelectController,抛绣球的选择页面
+"placeLabel" = "一个地点";
+"moodLabel" = "一篇心情";
+"fateLabel" = "一段缘分";
+"throwOneLabel" = "抛一个";
+"myBallLabel" = "我的绣球";
+//BanBu_SelectPlaceController
+"selectPlaceTitle" = "目标地点";
+"setCityLabel" = "设定城市";
+"setPlaceLabel" = "地点名称";
+"hotPlaces" = "热点位置";
+"cityplaceNil" = "城市或地名不能为空";
+"placeNULL" = "此地不存在";
+"huntNotice" = "正在搜索……";
+//BanBu_ThrowBallController
+"throwBallTitle" = "抛出绣球";
+"editAlert" = "是否要放弃编辑好的内容";
+"sayBall" = "把 你 的 心 情 包 在 绣 球 里";
+"emptyToolItem" = "清空";
+"finishToolItem" = "完成";
+"funLabel"= "拍照";
+"funLabel1"= "相册";
+"funLabel2"= "语音";
+"funLabel3"= "涂鸦";
+"funLabel4"= "我的位置";
+"selectOneway" = "温馨提示:每个绣球里的内容只能包含文字以及拍照、相册、语音、涂鸦、我的位置中的一种。";
+"throwNow"= "立即抛出";
+"editActionSheet" = "是否覆盖掉已编辑好的内容";
+"wordNilNotice" = "没有文字信息！";
+"throwAlert" = "是否确定要抛出绣球";
+"throwSuccess" = "绣球抛出成功！";
+//BanBu_MyBallsController
+"myBallTitle" = "我的绣球";
+/**********************************************/
+
+
+
+//对话
+/**********************************************/
+"mySay" = "[我说]";
+"talkPicture" = "[图片]";
+"talkLocation" = "[位置]";
+"talkSound" = "[语音]";
+//BanBu_MakeBigMapViewController
+"makebigTitle" = "位置详情";
+/**********************************************/
+//友情提示UIView
+"helpfulTitle" = "友情提示";
+"warningLabel" = "发送”约炮“、”一夜情“以及相关骚扰信息的用户，如被举报并核实，其手机将会被永久封禁，再也无法注册或登录任何半步账号。";
+"infoLabel" = "情节严重者,移交公安机关";
+"chat_btn" = "我知道了";
+"sendLocation" = "您是否发送您的地理位置";
+"seeMoreMessage" = "查看更多聊天记录";
+
+/*************************/
+"copyButton" = "复制";
+"shareButton" = "分享";
+"opera" = "操作";
+"deleteMes" = "清空聊天";
+"forward" = "转发";
+"retransmission" = "重发";
+"confomForward" = "你是否要重新发送";
+"confirmDelete" = "是否确定删除该条消息？";
+"newsState" = " 送达";
+"newsState1" = " 已读";
+"newsState2" = " 未读";
+"newsState3" = " 发送中";
+"newsState4" = " 失败";
+
+"errcode_fail" = "分享失败";
+"errcode_cancel" = "分享取消";
+"shareSuccess" = "分享成功";
+"comefromIceBreak" = "来自聊天助手";
+"comefromtuya" = "来自涂鸦";
+"noticeNotLog" = "尚未登录，请登录";
+"flagTitle" = "符号";
+"smileTitle" = "表情";
+"addBtn" = "添加";
+"locationBtn" = "位置";
+
+"holdtotalk" = "按住 说话";
+"kongAlert" = "不能发送空白消息";
+
+/***************************/
+//表情文字
+"smileItem" = "打怪兽";
+"smileItem1" = "嘟嘟嘴";
+"smileItem2" = "多变";
+"smileItem3" = "饿了";
+"smileItem4" = "高兴";
+"smileItem5" = "歌王";
+"smileItem6" = "好烦阿";
+"smileItem7" = "加油";
+"smileItem8" = "惊讶";
+"smileItem9" = "可爱";
+"smileItem10" = "可怜";
+"smileItem11" = "路过";
+"smileItem12" = "麦霸";
+"smileItem13" = "怒火";
+"smileItem14" = "求包养";
+"smileItem15" = "饶命";
+"smileItem16" = "撒娇";
+"smileItem17" = "睡觉";
+"smileItem18" = "太帅了";
+"smileItem19" = "痛苦";
+"smileItem20" = "羞羞脸";
+"smileItem21" = "压力大";
+"smileItem22" = "阴谋";
+"smileItem23" = "眨眼";
+"smileItem24" = "发大财";
+"smileItem25" = "喷饭";
+"smileItem26" = "炸飞了";
+"smileItem27" = "凄凉";
+"smileItem28" = "T台秀";
+"smileItem29" = "读书";
+"smileItem30" = "扭屁股";
+"smileItem31" = "舞蹈";
+"smileItem32" = "得意";
+"smileItem33" = "运动";
+"smileItem34" = "救命";
+"smileItem35" = "滚远点";
+"smileItem36" = "江南舞";
+"smileItem37" = "走你";
+ "resend"="重发";
+
+/*****************破冰语*********************/
+
+//BanBu_SearchIceViewController
+"searchIce" = "聊天助手";
+"searchTextField" = "可输入关键字";
+"searchIceBtn" = "搜索一下";
+"tuijianLabel" = "热门关键词";
+"searchkey" = "搜索-";
+
+"ice_actionSheetButtionTitle" = "直接发送";
+"ice_actionSheetButtionTitle1" = "发送到微信对话";
+"ice_actionSheetButtionTitle2" = "分享到微信好友圈";
+
+//BanBu_IceBreakerController
+"ice_textTitle" = "文字破冰语";
+//BanBu_IceBreaker_Voice
+"ice_voiceTitle" = "语音破冰语";
+//BanBu_icePicController
+"ice_picTitle" = "图片破冰语";
+
+"scanPic" = "图片浏览";
+
+//好友圈
+/**********************************************/
+//BanBu_MyFriendViewController
+"friendTitle" = "好友圈";
+"fItem" = "按距离";
+"fItem1" = "按最后登录时间";
+"fItem2" = "按添加时间";
+"summary_g" = "关注";
+"summary_f" = "粉丝";
+"summary_h" = "好友";
+"friendNoticeLabel" = "你还没有关注好友,赶快去关注附近的人吧!";
+"friendNoticeLabel1" = "你还没有粉丝,赶快去互粉吧!";
+"friendNoticeLabel2" = "你还没有好友,赶快去添加附近的人吧!";
+//BanBu_AddNewFriendViewController
+"andNewFriendTitle" = "添加好友";
+"searchBtn" = "查找";
+"zibarBtn" = "扫描2维码";
+"headerAndholder" = "  输入TA的邮箱或半步号";
+"nilNotice" = "内容不能为空！！！";
+"selfNotice" = "是你自己哦！！！";
+"searchNotice" = "正在查找……";
+"emailError" = "邮箱格式不正确";
+"resquesting" = "前一次请求正在加载……";
+"readerTitle" = "扫一扫加好友";
+/**********************************************/
+//我的空间
+/**********************************************/
+//BanBu_MySpaceViewController
+"myApp" = "  我的应用";
+"myCenter" = "  个人中心";
+"myinfoLabel" = "个人资料";
+"systemLabel" = "系统设置";
+"dymaicLabel" = "动态一览";
+"visitorLabel" = "来访记录";
+
+"helperLabel" = "帮助";
+//个人资料
+/**********************************************/
+//BanBu_MyProfileViewController
+"editAvatar" = "编辑头像";
+"profileSection" = "  基本信息";
+"profileSection1" = "  个人信息";
+"profileSection2" = "  绑定信息";
+"profileSection3" = "  帐号信息";
+
+"weiboBing" = "已绑定";
+"weiboUnBing" = "未绑定";
+"reBinding" = "解除绑定";
+"sinaSheetTitle" = "新浪微博";
+"TXSheetTitle" = "腾讯微博";
+"updateAvatarSuccess" = "更新头像成功";
+"reBindingSuccess" = "成功解除绑定";
+"updateInfo" = "更新数据……";
+"updateAvatar" = "更新头像……";
+
+"bangdingSina" = "绑定新浪微博";
+"bangdingTX" = "绑定腾讯微博";
+//太特别
+"changeInfo" = "您已对%@做了修改，是否保存?";
+// 0 section
+"s0c0" = "半步号";
+"s0c1" = "二维码名片";
+"s0c2" = "个人签名";
+"s0c2DefaluteValue" = "签名档会让附近的人知道你的最新状态";
+//1 section
+"s1c0" = "身高(cm)";
+"s1c1" = "血型";
+"s1c2" = "体重(kg)";
+//2 section
+"s2c0" = "兴趣爱好";
+"s2c0DefaluteValue" = "你的兴趣爱好";
+"s2c1" = "常出没的地方";
+"s2c1DefaluteValue" = "你常出没的地方";
+"s2c2" = "公司";
+"s2c2DefaluteValue" = "你曾经在哪些公司任职";
+"s2c3" = "职业";
+"s2c3DefaluteValue" = "你在从事什么职业";
+"s2c4" = "学校";
+"s2c4DefaluteValue" = "你曾经在哪些学校就读";
+
+//3 section
+"s3c0" = "新浪微博";
+"s3c1" = "腾讯微博";
+
+//编辑头像
+/**********************************************/
+//BanBu_PhotoManager
+"addPhoto" = "添加照片";
+"changePhoto" = "替换或删除";
+"deletePhoto" = "删除照片";
+"mustOneImage" = "请至少保留一张照片";
+
+
+//BanBu_ZibarController
+"zibarTitle" = "二维码名片";
+"banbuNum" = "半步号：";
+"descripLabel" = "扫一扫上面的图片,加我半步";
+
+//BanBu_WorkViewController
+"workTitle" = "职业";
+"workNil" = "职业不能为空哦";
+"workBelong" = "  所属行业";
+"workItem" = "计算机/互联网/通信";
+"workItem1" = "生产/工艺/制造";
+"workItem2" = "商业/服务业/个体经营";
+"workItem3" = "金融/银行/投资/保险";
+"workItem4" = "文化/广告/传媒";
+"workItem5" = "娱乐/艺术/表演";
+"workItem6" = "医疗/护理/制药";
+"workItem7" = "律师/法务";
+"workItem8" = "教育/培训";
+"workItem9" = "公务员/事业单位";
+"workItem10" = "学生";
+/**********************************************/
+//系统设置
+/**********************************************/
+//BanBu_SettingViewController
+"settingTitle" = "系统设置";
+"exitBtn" = "退出";
+"messageMan" = "消息管理";
+"userNameMan" = "帐号管理";
+"stealthLabel" = "隐身模式";
+"soundSwitch" = "声音";
+"newmsgNotice" = "新消息提醒";
+"soundType" = "提示音类型";
+//"stealthDetailLabel" = "";
+"locationLabel" = "定位服务";
+"remindLabel" = "提醒设置";
+"muteLabel" = "静音时段";
+//"muteDetailLabel" = "";
+"PWSettingLabel" = "密码设置";
+"blackLabel" = "黑名单";
+"feedBackLabel" = "意见反馈";
+"commendForBanbu" = "给半步评论";
+"userHelpr" = "用户帮助";
+//BanBu_BlacklistViewController
+"blackTitle" = "黑名单";
+"unlockButton" = "解除";
+//BanBu_ChangePWViewController
+"changePWTitle" = "修改密码";
+"errorMsg6" = "请输入原密码";
+"errorMsg7" = "请输入新密码";
+"changePWNotice" = "正在修改……";
+"changeOK" = "密码设置成功";
+"oldPWLabel" = "旧密码";
+"inputOldPW" = "请输入旧密码";
+"newPWLabel" = "新密码";
+"conPWLabel" = "重复密码";
+
+/**********************************************/
+//动态一览
+//BanBu_DynamicController
+"dynamicTitle" = "好友动态";
+"displayVisitRecord" = "来访记录";
+"displayFriendNews" = "好友动态";
+"friendNewsNoticeLabel" = "你还木有好友，怎么会有好友动态！";
+"visitRecordNoticeLabel" = "还木有人看过你哦，赶紧发发广播吧！";
+/**********************************************/
+//帮助
+//BanBu_HelpViewController
+"helpTitle" = "关于半步";
+"descripLabel" = "半步是一款手机通信软件，支持通过手机网络发送语音短信、视频、图片和文字，可以根据地理位置找到附近的人";
+"tipsLabel" = "1）与附近的人对话\n2）添加好友 \n3）好友圈更新，浏览好友动态";
+/**********************************************/
+//我的应用
+"trainTitle" = "北京地铁";
+
+
+/***********新版broadcast*********/
+"pictureAndVoiceTitle" = "图片和语音";
+"addAPhoto" = "\n请先添加一张照片\n\n";
+"timeshortNoticte" = "\n请长按录音按钮\n\n";
+
+"textAndTagsTitle" = "文字和标签";
+"textDescription" = "\n请在此输入文字描述\n\n";
+"share_broadcast" = "分享到:";
+"bindNow" = "现在就去绑定";
+"voiceOrTextNotice" = "\n录音或文字至少完成一项\n\n";
+
+"commentcount1" = "点击查看全部";
+"commentcount2" = "条评论...";
+
+"longVoice" = "长按发送语音评论";
+"zan_failed" = "你已经提交过了";
+"zan_success" = "提交成功！";
+
+"tagTextfield" = "标签";
+"tagTextPlaceholder" = "请输入标签，以空格分隔";
+"writeSomething" = "此刻写点什么吧...";
+"km500" = "搜索500公里内";
+"km2000" = "搜索2000公里内";
+
+ // 我的设置里面的
+"notific"="新消息提醒";
+
+"notificChat"="接收聊天消息通知";
+
+"notificFriend"="接收好友圈动态通知";
+
+"jiaweihaoyou" = "加为好友";
+"kaishiduihua" = "写信息";
+
+"requestFrom"="我已经通过了你的好友请求，一起来聊天吧";
+
+"moreTitle" = "更多";
+
+"sexSelect" = "性别";
+"timeSelect" = "上线时间";
+"selectTitle" = "筛选设置";
+ //BanBu_ToseeGifViewController
+//放大看原图
+"tuyaEdit" = "涂鸦编辑保存";
+"tuyaReply" = "涂鸦回复";
+"continueEdit" = "继续编辑";
+"saveToAlum" = "保存到手机相册";
+/********************/
+
+//注册和修改资料的分享
+"reginShare" = "我在半步网(www.halfeet.com) - 附近陌生人约会聊天交友";
+"photoShare" = "我在半步网(www.halfeet.com)上传了新的照片。";
+"followShare" = "我在半步网(www.halfeet.com)和%@成为了好友。";
+
+

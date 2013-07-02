@@ -1,0 +1,25 @@
+//
+// Prefix header for all source files of the 'BanBu' target in the 'BanBu' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+#import "FHSTwitterEngine.h"
+
+#import <FacebookSDK/FacebookSDK.h>
+
+    //设备屏幕大小
+    #define __MainScreenFrame   [[UIScreen mainScreen] bounds]
+    //设备屏幕宽
+    #define __MainScreen_Width  __MainScreenFrame.size.width
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   //设备屏幕高 20,表示状态栏高度.如3.5inch 的高,得到的__MainScreenFrame.size.height是480,而去掉电量那条状态栏,我们真正用到的是460;
+    #define __MainScreen_Height __MainScreenFrame.size.height-20
+#endif
